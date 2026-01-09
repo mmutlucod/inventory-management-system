@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<data name="Unauthorized" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+	<data name="InvalidOperation" xml:space="preserve">
+    <value>Invalid operation</value>
+  </data>
+	<data name="OperationFailed" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+	<data name="NotFound" xml:space="preserve">
+    <value>Not found</value>
+</data>
+
+	<data name="ProductNotFound" xml:space="preserve">
+    <value>Product not found</value>
+  </data>
+	<data name="ProductCreated" xml:space="preserve">
+    <value>Product created successfully</value>
+  </data>
+	<data name="ProductUpdated" xml:space="preserve">
+    <value>Product updated successfully</value>
+  </data>
+	<data name="ProductDeleted" xml:space="preserve">
+    <value>Product deleted successfully</value>
+  </data>
+
+	<data name="SyncPullFailed" xml:space="preserve">
+    <value>Sync pull failed</value>
+  </data>
+	<data name="SyncPushFailed" xml:space="preserve">
+    <value>Sync push failed</value>
+  </data>
+	<data name="SyncSuccess" xml:space="preserve">
+    <value>Sync successful</value>
+  </data>
+	<data name="InsufficientStock" xml:space="preserve">
+    <value>Insufficient stock</value>
+  </data>
+	<data name="StockMovementAdded" xml:space="preserve">
+    <value>Stock movement added</value>
+  </data>
+
+	<data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid email or password</value>
+  </data>
+	<data name="UserAlreadyExists" xml:space="preserve">
+    <value>This email is already registered</value>
+  </data>
+	<data name="RegistrationSuccess" xml:space="preserve">
+    <value>Registration successful</value>
+  </data>
+	<data name="LoginSuccess" xml:space="preserve">
+    <value>Login successful</value>
+  </data>
+	<data name="LogoutSuccess" xml:space="preserve">
+    <value>Successfully logged out</value>
+  </data>
+	<data name="EmailAlreadyInUse" xml:space="preserve">
+  <value>This email address is already in use</value>
+</data>
+	<data name="InvalidRefreshToken" xml:space="preserve">
+  <value>Invalid refresh token</value>
+</data>
+	<data name="UserNotFound" xml:space="preserve">
+  <value>User not found</value>
+</data>
+	<data name="ProductVersionConflict" xml:space="preserve">
+    <value>Product has been updated with a newer version</value>
+</data>
+
+	<data name="InvalidMovementType" xml:space="preserve">
+    <value>Invalid movement type. Must be 'in' or 'out'</value>
+</data>
+	<data name="EmailRequired" xml:space="preserve">
+    <value>Email is required</value>
+</data>
+	<data name="EmailInvalid" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+</data>
+	<data name="EmailMaxLength" xml:space="preserve">
+    <value>Email cannot exceed 255 characters</value>
+</data>
+	<data name="PasswordRequired" xml:space="preserve">
+    <value>Password is required</value>
+</data>
+	<data name="PasswordMinLength" xml:space="preserve">
+    <value>Password must be at least 6 characters</value>
+</data>
+	<data name="PasswordMaxLength" xml:space="preserve">
+    <value>Password cannot exceed 100 characters</value>
+</data>
+	<data name="PasswordUppercaseRequired" xml:space="preserve">
+    <value>Password must contain at least one uppercase letter</value>
+</data>
+	<data name="PasswordLowercaseRequired" xml:space="preserve">
+    <value>Password must contain at least one lowercase letter</value>
+</data>
+	<data name="PasswordDigitRequired" xml:space="preserve">
+    <value>Password must contain at least one digit</value>
+</data>
+	<data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Password confirmation is required</value>
+</data>
+	<data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Passwords do not match</value>
+</data>
+	<data name="NameMaxLength" xml:space="preserve">
+    <value>Name cannot exceed 255 characters</value>
+</data>
+	<data name="ProductIdRequired" xml:space="preserve">
+    <value>Product ID is required</value>
+</data>
+	<data name="ProductNameRequired" xml:space="preserve">
+    <value>Product name is required</value>
+</data>
+	<data name="ProductNameMaxLength" xml:space="preserve">
+    <value>Product name cannot exceed 255 characters</value>
+</data>
+	<data name="BarcodeMaxLength" xml:space="preserve">
+    <value>Barcode cannot exceed 100 characters</value>
+</data>
+	<data name="StockNonNegative" xml:space="preserve">
+    <value>Stock quantity cannot be negative</value>
+</data>
+	<data name="PriceNonNegative" xml:space="preserve">
+    <value>Price cannot be negative</value>
+</data>
+	<data name="CategoryMaxLength" xml:space="preserve">
+    <value>Category cannot exceed 100 characters</value>
+</data>
+	<data name="ImageUrlMaxLength" xml:space="preserve">
+    <value>Image URL cannot exceed 500 characters</value>
+</data>
+	<data name="ImageUrlInvalid" xml:space="preserve">
+    <value>Please enter a valid URL</value>
+</data>
+	<data name="UpdatedAtRequired" xml:space="preserve">
+    <value>Updated date is required</value>
+</data>
+	<data name="UpdatedAtInvalid" xml:space="preserve">
+    <value>Please enter a valid date</value>
+</data>
+	<data name="ProductIdRequired" xml:space="preserve">
+    <value>Product ID is required</value>
+</data>
+	<data name="QuantityMustBePositive" xml:space="preserve">
+    <value>Quantity must be greater than zero</value>
+</data>
+	<data name="MovementTypeRequired" xml:space="preserve">
+    <value>Movement type is required</value>
+</data>
+</root>

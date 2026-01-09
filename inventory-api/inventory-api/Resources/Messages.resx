@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<data name="Unauthorized" xml:space="preserve">
+    <value>Yetkisiz erişim</value>
+  </data>
+	<data name="InvalidOperation" xml:space="preserve">
+    <value>Geçersiz işlem</value>
+  </data>
+	<data name="OperationFailed" xml:space="preserve">
+    <value>İşlem başarısız</value>
+  </data>
+	<data name="NotFound" xml:space="preserve">
+    <value>Kayıt bulunamadı</value>
+</data>
+
+	<data name="ProductNotFound" xml:space="preserve">
+    <value>Ürün bulunamadı</value>
+  </data>
+	<data name="ProductCreated" xml:space="preserve">
+    <value>Ürün başarıyla oluşturuldu</value>
+  </data>
+	<data name="ProductUpdated" xml:space="preserve">
+    <value>Ürün başarıyla güncellendi</value>
+  </data>
+	<data name="ProductDeleted" xml:space="preserve">
+    <value>Ürün başarıyla silindi</value>
+  </data>
+
+	<data name="SyncPullFailed" xml:space="preserve">
+    <value>Senkronizasyon alınamadı</value>
+  </data>
+	<data name="SyncPushFailed" xml:space="preserve">
+    <value>Senkronizasyon gönderilemedi</value>
+  </data>
+	<data name="SyncSuccess" xml:space="preserve">
+    <value>Senkronizasyon başarılı</value>
+  </data>
+
+	<data name="InsufficientStock" xml:space="preserve">
+    <value>Yetersiz stok</value>
+  </data>
+	<data name="StockMovementAdded" xml:space="preserve">
+    <value>Stok hareketi eklendi</value>
+  </data>
+
+	<data name="InvalidCredentials" xml:space="preserve">
+    <value>Geçersiz kullanıcı adı veya şifre</value>
+  </data>
+	<data name="UserAlreadyExists" xml:space="preserve">
+    <value>Bu e-posta adresi zaten kayıtlı</value>
+  </data>
+	<data name="RegistrationSuccess" xml:space="preserve">
+    <value>Kayıt başarılı</value>
+  </data>
+	<data name="LoginSuccess" xml:space="preserve">
+    <value>Giriş başarılı</value>
+  </data>
+	<data name="LogoutSuccess" xml:space="preserve">
+    <value>Başarıyla çıkış yapıldı</value>
+  </data>
+	<data name="EmailAlreadyInUse" xml:space="preserve">
+  <value>Bu email adresi zaten kullanılıyor</value>
+</data>
+	<data name="InvalidRefreshToken" xml:space="preserve">
+  <value>Geçersiz refresh token</value>
+</data>
+	<data name="UserNotFound" xml:space="preserve">
+  <value>Kullanıcı bulunamadı</value>
+</data>
+	<data name="ProductVersionConflict" xml:space="preserve">
+    <value>Ürün daha yeni bir versiyonla güncellenmiş</value>
+</data>
+
+	<data name="InvalidMovementType" xml:space="preserve">
+    <value>Geçersiz hareket tipi. 'in' veya 'out' olmalıdır</value>
+</data>
+	<data name="EmailRequired" xml:space="preserve">
+    <value>Email zorunludur</value>
+</data>
+	<data name="EmailInvalid" xml:space="preserve">
+    <value>Geçerli bir email adresi giriniz</value>
+</data>
+	<data name="EmailMaxLength" xml:space="preserve">
+    <value>Email en fazla 255 karakter olabilir</value>
+</data>
+	<data name="PasswordRequired" xml:space="preserve">
+    <value>Şifre zorunludur</value>
+</data>
+	<data name="PasswordMinLength" xml:space="preserve">
+    <value>Şifre en az 6 karakter olmalıdır</value>
+</data>
+	<data name="PasswordMaxLength" xml:space="preserve">
+    <value>Şifre en fazla 100 karakter olabilir</value>
+</data>
+	<data name="PasswordUppercaseRequired" xml:space="preserve">
+    <value>Şifre en az bir büyük harf içermelidir</value>
+</data>
+	<data name="PasswordLowercaseRequired" xml:space="preserve">
+    <value>Şifre en az bir küçük harf içermelidir</value>
+</data>
+	<data name="PasswordDigitRequired" xml:space="preserve">
+    <value>Şifre en az bir rakam içermelidir</value>
+</data>
+	<data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Şifre tekrarı zorunludur</value>
+</data>
+	<data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>Şifreler eşleşmiyor</value>
+</data>
+	<data name="NameMaxLength" xml:space="preserve">
+    <value>İsim en fazla 255 karakter olabilir</value>
+</data>
+	
+	<data name="ProductIdRequired" xml:space="preserve">
+    <value>Ürün ID'si zorunludur</value>
+</data>
+	<data name="ProductNameRequired" xml:space="preserve">
+    <value>Ürün adı zorunludur</value>
+</data>
+	<data name="ProductNameMaxLength" xml:space="preserve">
+    <value>Ürün adı en fazla 255 karakter olabilir</value>
+</data>
+	<data name="BarcodeMaxLength" xml:space="preserve">
+    <value>Barkod en fazla 100 karakter olabilir</value>
+</data>
+	<data name="StockNonNegative" xml:space="preserve">
+    <value>Stok miktarı negatif olamaz</value>
+</data>
+	<data name="PriceNonNegative" xml:space="preserve">
+    <value>Fiyat negatif olamaz</value>
+</data>
+	<data name="CategoryMaxLength" xml:space="preserve">
+    <value>Kategori en fazla 100 karakter olabilir</value>
+</data>
+	<data name="ImageUrlMaxLength" xml:space="preserve">
+    <value>Fotoğraf URL'i en fazla 500 karakter olabilir</value>
+</data>
+	<data name="ImageUrlInvalid" xml:space="preserve">
+    <value>Geçerli bir URL giriniz</value>
+</data>
+	<data name="UpdatedAtRequired" xml:space="preserve">
+    <value>Güncellenme tarihi zorunludur</value>
+</data>
+	<data name="UpdatedAtInvalid" xml:space="preserve">
+    <value>Geçerli bir tarih giriniz</value>
+</data>
+	<data name="ProductIdRequired" xml:space="preserve">
+    <value>Ürün ID'si zorunludur</value>
+</data>
+	<data name="QuantityMustBePositive" xml:space="preserve">
+    <value>Miktar sıfırdan büyük olmalıdır</value>
+</data>
+	<data name="MovementTypeRequired" xml:space="preserve">
+    <value>Hareket tipi zorunludur</value>
+</data>
+</root>

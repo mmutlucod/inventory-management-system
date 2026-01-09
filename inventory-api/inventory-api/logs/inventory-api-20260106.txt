@@ -1,0 +1,149 @@
+2026-01-06 16:46:32.426 +03:00 [INF] Starting Inventory API...
+2026-01-06 16:46:33.538 +03:00 [INF] Inventory API started successfully
+2026-01-06 16:46:33.576 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-06 16:46:33.872 +03:00 [INF] Now listening on: http://localhost:5215
+2026-01-06 16:46:33.877 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-06 16:46:33.880 +03:00 [INF] Hosting environment: Development
+2026-01-06 16:46:33.881 +03:00 [INF] Content root path: C:\Users\Dell\desktop\inventory-api\inventory-api
+2026-01-06 21:44:36.724 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2026-01-06 21:44:36.778 +03:00 [INF] HTTP GET / started
+2026-01-06 21:44:36.786 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-01-06 21:44:37.572 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:44:37.595 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:44:37.599 +03:00 [INF] HTTP GET / responded 200 in 821ms
+2026-01-06 21:44:37.608 +03:00 [INF] HTTP GET / responded 200 in 830.1597 ms
+2026-01-06 21:44:37.630 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 200 null application/json; charset=utf-8 908.3144ms
+2026-01-06 21:44:37.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/favicon.ico - null null
+2026-01-06 21:44:37.973 +03:00 [INF] HTTP GET /favicon.ico started
+2026-01-06 21:44:37.976 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 3ms
+2026-01-06 21:44:37.980 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 6.6522 ms
+2026-01-06 21:44:37.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/favicon.ico - 404 0 null 17.8638ms
+2026-01-06 21:44:37.990 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/favicon.ico, Response status code: 404
+2026-01-06 21:47:30.523 +03:00 [INF] Application is shutting down...
+2026-01-06 21:47:53.648 +03:00 [INF] Starting Inventory API...
+2026-01-06 21:47:54.774 +03:00 [INF] Inventory API started successfully
+2026-01-06 21:47:54.807 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-06 21:47:55.037 +03:00 [INF] Now listening on: http://0.0.0.0:5215
+2026-01-06 21:47:55.043 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-06 21:47:55.046 +03:00 [INF] Hosting environment: Development
+2026-01-06 21:47:55.048 +03:00 [INF] Content root path: C:\Users\Dell\desktop\inventory-api\inventory-api
+2026-01-06 21:48:07.652 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-06 21:48:07.682 +03:00 [INF] HTTP GET / started
+2026-01-06 21:48:07.717 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:48:07.733 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:48:07.737 +03:00 [INF] HTTP GET / responded 200 in 56ms
+2026-01-06 21:48:07.744 +03:00 [INF] HTTP GET / responded 200 in 65.6362 ms
+2026-01-06 21:48:07.759 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 109.1831ms
+2026-01-06 21:48:07.910 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/favicon.ico - null null
+2026-01-06 21:48:07.917 +03:00 [INF] HTTP GET /favicon.ico started
+2026-01-06 21:48:07.923 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 6ms
+2026-01-06 21:48:07.927 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 10.3772 ms
+2026-01-06 21:48:07.931 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/favicon.ico - 404 0 null 21.7148ms
+2026-01-06 21:48:07.939 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://192.168.1.113:5215/favicon.ico, Response status code: 404
+2026-01-06 21:53:38.555 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-06 21:53:38.562 +03:00 [INF] HTTP GET / started
+2026-01-06 21:53:38.568 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:53:38.570 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:53:38.572 +03:00 [INF] HTTP GET / responded 200 in 9ms
+2026-01-06 21:53:38.576 +03:00 [INF] HTTP GET / responded 200 in 13.1300 ms
+2026-01-06 21:53:38.582 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 26.6568ms
+2026-01-06 21:55:49.764 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/swagger - null null
+2026-01-06 21:55:49.770 +03:00 [INF] HTTP GET /swagger started
+2026-01-06 21:55:49.773 +03:00 [INF] HTTP GET /swagger responded 404 in 2ms
+2026-01-06 21:55:49.776 +03:00 [INF] HTTP GET /swagger responded 404 in 5.8959 ms
+2026-01-06 21:55:49.782 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/swagger - 404 0 null 18.0858ms
+2026-01-06 21:55:49.791 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://192.168.1.113:5215/swagger, Response status code: 404
+2026-01-06 21:55:51.142 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/swagger - null null
+2026-01-06 21:55:51.231 +03:00 [INF] HTTP GET /swagger started
+2026-01-06 21:55:51.235 +03:00 [INF] HTTP GET /swagger responded 404 in 4ms
+2026-01-06 21:55:51.239 +03:00 [INF] HTTP GET /swagger responded 404 in 7.7248 ms
+2026-01-06 21:55:51.242 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/swagger - 404 0 null 100.3716ms
+2026-01-06 21:55:51.294 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://192.168.1.113:5215/swagger, Response status code: 404
+2026-01-06 21:56:03.051 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-06 21:56:03.057 +03:00 [INF] HTTP GET / started
+2026-01-06 21:56:03.060 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:56:03.062 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:56:03.064 +03:00 [INF] HTTP GET / responded 200 in 7ms
+2026-01-06 21:56:03.071 +03:00 [INF] HTTP GET / responded 200 in 14.2828 ms
+2026-01-06 21:56:03.075 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 23.3276ms
+2026-01-06 21:56:16.779 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/swagger - null null
+2026-01-06 21:56:16.785 +03:00 [INF] HTTP GET /swagger started
+2026-01-06 21:56:16.787 +03:00 [INF] HTTP GET /swagger responded 404 in 2ms
+2026-01-06 21:56:16.792 +03:00 [INF] HTTP GET /swagger responded 404 in 7.0320 ms
+2026-01-06 21:56:16.800 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/swagger - 404 0 null 20.7233ms
+2026-01-06 21:56:16.808 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/swagger, Response status code: 404
+2026-01-06 21:56:24.575 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/login - null null
+2026-01-06 21:56:24.581 +03:00 [INF] HTTP GET /login started
+2026-01-06 21:56:24.589 +03:00 [INF] HTTP GET /login responded 404 in 7ms
+2026-01-06 21:56:24.594 +03:00 [INF] HTTP GET /login responded 404 in 12.2415 ms
+2026-01-06 21:56:24.602 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/login - 404 0 null 27.447ms
+2026-01-06 21:56:24.609 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/login, Response status code: 404
+2026-01-06 21:56:36.602 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/products - null null
+2026-01-06 21:56:36.608 +03:00 [INF] HTTP GET /products started
+2026-01-06 21:56:36.611 +03:00 [INF] HTTP GET /products responded 404 in 3ms
+2026-01-06 21:56:36.614 +03:00 [INF] HTTP GET /products responded 404 in 6.9175 ms
+2026-01-06 21:56:36.619 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/products - 404 0 null 16.7811ms
+2026-01-06 21:56:36.627 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/products, Response status code: 404
+2026-01-06 21:56:47.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - null null
+2026-01-06 21:56:47.504 +03:00 [INF] HTTP GET /api/products started
+2026-01-06 21:56:47.514 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-06 21:56:47.525 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-06 21:56:47.529 +03:00 [INF] HTTP GET /api/products responded 401 in 24ms
+2026-01-06 21:56:47.536 +03:00 [INF] HTTP GET /api/products responded 401 in 31.8425 ms
+2026-01-06 21:56:47.542 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 401 0 null 44.1152ms
+2026-01-06 21:57:02.505 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/API/products - null null
+2026-01-06 21:57:02.511 +03:00 [INF] HTTP GET /API/products started
+2026-01-06 21:57:02.515 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-01-06 21:57:02.518 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-01-06 21:57:02.520 +03:00 [INF] HTTP GET /API/products responded 401 in 8ms
+2026-01-06 21:57:02.523 +03:00 [INF] HTTP GET /API/products responded 401 in 11.9346 ms
+2026-01-06 21:57:02.536 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/API/products - 401 0 null 31.2452ms
+2026-01-06 21:57:08.704 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-06 21:57:08.710 +03:00 [INF] HTTP GET / started
+2026-01-06 21:57:08.713 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:57:08.716 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:57:08.719 +03:00 [INF] HTTP GET / responded 200 in 8ms
+2026-01-06 21:57:08.723 +03:00 [INF] HTTP GET / responded 200 in 12.3153 ms
+2026-01-06 21:57:08.727 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 22.6153ms
+2026-01-06 21:57:12.338 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/ - null null
+2026-01-06 21:57:12.344 +03:00 [INF] HTTP GET / started
+2026-01-06 21:57:12.349 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-06 21:57:12.352 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-06 21:57:12.356 +03:00 [INF] HTTP GET / responded 200 in 12ms
+2026-01-06 21:57:12.360 +03:00 [INF] HTTP GET / responded 200 in 15.5159 ms
+2026-01-06 21:57:12.364 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/ - 200 null application/json; charset=utf-8 26.403ms
+2026-01-06 22:02:00.400 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/API/health - null null
+2026-01-06 22:02:00.407 +03:00 [INF] HTTP GET /API/health started
+2026-01-06 22:02:00.410 +03:00 [INF] HTTP GET /API/health responded 404 in 2ms
+2026-01-06 22:02:00.413 +03:00 [INF] HTTP GET /API/health responded 404 in 6.1312 ms
+2026-01-06 22:02:00.417 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/API/health - 404 0 null 16.7842ms
+2026-01-06 22:02:00.427 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://192.168.1.113:5215/API/health, Response status code: 404
+2026-01-06 22:02:28.099 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/health - null null
+2026-01-06 22:02:28.105 +03:00 [INF] HTTP GET /api/health started
+2026-01-06 22:02:28.108 +03:00 [INF] HTTP GET /api/health responded 404 in 2ms
+2026-01-06 22:02:28.111 +03:00 [INF] HTTP GET /api/health responded 404 in 6.0284 ms
+2026-01-06 22:02:28.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/health - 404 0 null 18.0916ms
+2026-01-06 22:02:28.124 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5215/api/health, Response status code: 404
+2026-01-06 22:02:46.456 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/health - null null
+2026-01-06 22:02:46.462 +03:00 [INF] HTTP GET /health started
+2026-01-06 22:02:46.470 +03:00 [INF] Executing endpoint 'HTTP: GET /health'
+2026-01-06 22:02:46.481 +03:00 [INF] Executed endpoint 'HTTP: GET /health'
+2026-01-06 22:02:46.485 +03:00 [INF] HTTP GET /health responded 200 in 23ms
+2026-01-06 22:02:46.492 +03:00 [INF] HTTP GET /health responded 200 in 30.2761 ms
+2026-01-06 22:02:46.497 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/health - 200 null application/json; charset=utf-8 40.1584ms
+2026-01-06 22:03:07.625 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/health - null null
+2026-01-06 22:03:07.632 +03:00 [INF] HTTP GET /health started
+2026-01-06 22:03:07.635 +03:00 [INF] Executing endpoint 'HTTP: GET /health'
+2026-01-06 22:03:07.637 +03:00 [INF] Executed endpoint 'HTTP: GET /health'
+2026-01-06 22:03:07.640 +03:00 [INF] HTTP GET /health responded 200 in 7ms
+2026-01-06 22:03:07.646 +03:00 [INF] HTTP GET /health responded 200 in 13.6042 ms
+2026-01-06 22:03:07.652 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/health - 200 null application/json; charset=utf-8 26.5938ms
+2026-01-06 22:38:16.849 +03:00 [INF] Starting Inventory API...
+2026-01-06 22:38:20.918 +03:00 [INF] Inventory API started successfully
+2026-01-06 22:38:21.005 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-06 22:38:23.980 +03:00 [INF] Now listening on: http://0.0.0.0:5215
+2026-01-06 22:38:23.987 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-06 22:38:23.989 +03:00 [INF] Hosting environment: Development
+2026-01-06 22:38:23.991 +03:00 [INF] Content root path: C:\Users\Dell\desktop\inventory-api\inventory-api

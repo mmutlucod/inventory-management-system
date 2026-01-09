@@ -1,0 +1,1111 @@
+2025-12-29 12:48:59.720 +03:00 [INF] Starting Inventory API...
+2025-12-29 12:49:01.701 +03:00 [INF] Inventory API started successfully
+2025-12-29 12:49:01.738 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-29 12:49:02.037 +03:00 [INF] Now listening on: http://localhost:5215
+2025-12-29 12:49:02.042 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-29 12:49:02.045 +03:00 [INF] Hosting environment: Development
+2025-12-29 12:49:02.046 +03:00 [INF] Content root path: C:\Users\Dell\Desktop\inventory-api\inventory-api
+2025-12-29 12:50:04.832 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json 118
+2025-12-29 12:50:04.875 +03:00 [INF] HTTP POST /api/auth/register started
+2025-12-29 12:50:04.882 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-29 12:50:04.983 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 12:50:05.022 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:50:05.039 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:50:05.050 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:50:05.082 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 12:50:06.778 +03:00 [WRN] Entity 'Product' has a global query filter defined and is the required end of a relationship with the entity 'StockMovement'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-12-29 12:50:06.785 +03:00 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'SyncLog'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-12-29 12:50:12.442 +03:00 [ERR] An error occurred using the connection to database 'inventory_db' on server 'tcp://localhost:5432'.
+2025-12-29 12:50:12.463 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'inventory_api.Data.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 12:50:12.589 +03:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 12:50:12.623 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 7531.0382ms
+2025-12-29 12:50:12.640 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:50:12.643 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 7769ms
+2025-12-29 12:50:12.652 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 7777.0496 ms
+2025-12-29 12:50:12.674 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 null application/json; charset=utf-8 7844.7ms
+2025-12-29 12:53:59.239 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json 118
+2025-12-29 12:53:59.247 +03:00 [INF] HTTP POST /api/auth/register started
+2025-12-29 12:53:59.252 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 12:53:59.273 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:53:59.283 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:53:59.286 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:53:59.288 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 12:54:03.472 +03:00 [ERR] An error occurred using the connection to database 'inventory_db' on server 'tcp://localhost:5432'.
+2025-12-29 12:54:03.477 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'inventory_api.Data.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): Failed to connect to 127.0.0.1:5432
+ ---> System.Net.Sockets.SocketException (10061): Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 12:54:03.538 +03:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 12:54:03.542 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 4243.5553ms
+2025-12-29 12:54:03.544 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:54:03.546 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 4298ms
+2025-12-29 12:54:03.551 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 4303.8054 ms
+2025-12-29 12:54:03.556 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 400 null application/json; charset=utf-8 4316.8397ms
+2025-12-29 12:58:35.095 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/register - application/json 118
+2025-12-29 12:58:35.106 +03:00 [INF] HTTP POST /api/auth/register started
+2025-12-29 12:58:35.111 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 12:58:35.140 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:58:35.149 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:58:35.155 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:58:35.157 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 12:58:35.508 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM users AS u
+    WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0)
+2025-12-29 12:58:36.121 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO users (id, created_at, email, name, password_hash, refresh_token, refresh_token_expiry, updated_at)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING is_deleted;
+2025-12-29 12:58:36.157 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Auth.LoginResponseDto'.
+2025-12-29 12:58:36.170 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 1007.3726ms
+2025-12-29 12:58:36.173 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2025-12-29 12:58:36.176 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 1069ms
+2025-12-29 12:58:36.181 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 1074.6404 ms
+2025-12-29 12:58:36.188 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/register - 200 null application/json; charset=utf-8 1092.4105ms
+2025-12-29 12:59:47.483 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json 61
+2025-12-29 12:59:47.487 +03:00 [INF] HTTP POST /api/auth/login started
+2025-12-29 12:59:47.491 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 12:59:47.510 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:59:47.523 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 12:59:47.528 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2025-12-29 12:59:47.536 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Login(inventory_api.DTOs.Auth.LoginRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 12:59:47.597 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0
+LIMIT 1
+2025-12-29 12:59:47.817 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET refresh_token = @p0, refresh_token_expiry = @p1, updated_at = @p2
+WHERE id = @p3;
+2025-12-29 12:59:47.825 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Auth.LoginResponseDto'.
+2025-12-29 12:59:47.827 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Login (inventory-api) in 286.4606ms
+2025-12-29 12:59:47.830 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2025-12-29 12:59:47.832 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 344ms
+2025-12-29 12:59:47.834 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 346.9082 ms
+2025-12-29 12:59:47.837 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 null application/json; charset=utf-8 354.4024ms
+2025-12-29 13:01:43.632 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/me - application/json 61
+2025-12-29 13:01:43.637 +03:00 [INF] HTTP GET /api/auth/me started
+2025-12-29 13:01:43.639 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 13:01:43.665 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 13:01:43.671 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 13:01:43.689 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-29 13:01:43.697 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-12-29 13:01:43.698 +03:00 [INF] HTTP GET /api/auth/me responded 401 in 60ms
+2025-12-29 13:01:43.700 +03:00 [INF] HTTP GET /api/auth/me responded 401 in 62.7331 ms
+2025-12-29 13:01:43.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/me - 401 0 null 73.9198ms
+2025-12-29 13:02:25.890 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/me - application/json 61
+2025-12-29 13:02:25.895 +03:00 [INF] HTTP GET /api/auth/me started
+2025-12-29 13:02:25.899 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-12-29 13:02:25.921 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'. , KeyId: \r\n'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 13:02:25.925 +03:00 [WRN] JWT validation failed: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'zqd3jLaghC91pF4Y4-7oxcXOOlJDPYD93NsEPkdVdUQ'.'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-12-29 13:02:25.941 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-29 13:02:25.947 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-12-29 13:02:25.951 +03:00 [INF] HTTP GET /api/auth/me responded 401 in 55ms
+2025-12-29 13:02:25.953 +03:00 [INF] HTTP GET /api/auth/me responded 401 in 57.9187 ms
+2025-12-29 13:02:25.956 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/me - 401 0 null 65.7188ms
+2025-12-29 13:02:45.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/me - application/json 61
+2025-12-29 13:02:45.254 +03:00 [INF] HTTP GET /api/auth/me started
+2025-12-29 13:02:45.285 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api)'
+2025-12-29 13:02:45.293 +03:00 [INF] Route matched with {action = "GetCurrentUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.UserDto]] GetCurrentUser() on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 13:02:45.299 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:02:45.309 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api) in 12.7328ms
+2025-12-29 13:02:45.310 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api)'
+2025-12-29 13:02:45.315 +03:00 [INF] HTTP GET /api/auth/me responded 200 in 60ms
+2025-12-29 13:02:45.319 +03:00 [INF] HTTP GET /api/auth/me responded 200 in 64.8992 ms
+2025-12-29 13:02:45.326 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/me - 200 null application/json; charset=utf-8 75.1728ms
+2025-12-29 13:03:33.787 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/logout - application/json 61
+2025-12-29 13:03:33.794 +03:00 [INF] HTTP POST /api/auth/logout started
+2025-12-29 13:03:33.797 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Logout (inventory-api)'
+2025-12-29 13:03:33.802 +03:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 13:03:33.824 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND u.id = @__p_0
+LIMIT 1
+2025-12-29 13:03:33.847 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p8='?' (DbType = Guid), @p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = Boolean), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET created_at = @p0, email = @p1, is_deleted = @p2, name = @p3, password_hash = @p4, refresh_token = @p5, refresh_token_expiry = @p6, updated_at = @p7
+WHERE id = @p8;
+2025-12-29 13:03:33.860 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:03:33.864 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Logout (inventory-api) in 56.0477ms
+2025-12-29 13:03:33.866 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Logout (inventory-api)'
+2025-12-29 13:03:33.870 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 76ms
+2025-12-29 13:03:33.873 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 78.8686 ms
+2025-12-29 13:03:33.877 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/logout - 200 null application/json; charset=utf-8 90.2374ms
+2025-12-29 13:03:48.318 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/logout - application/json 61
+2025-12-29 13:03:48.324 +03:00 [INF] HTTP POST /api/auth/logout started
+2025-12-29 13:03:48.326 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Logout (inventory-api)'
+2025-12-29 13:03:48.331 +03:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 13:03:48.401 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND u.id = @__p_0
+LIMIT 1
+2025-12-29 13:03:48.411 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p8='?' (DbType = Guid), @p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = Boolean), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET created_at = @p0, email = @p1, is_deleted = @p2, name = @p3, password_hash = @p4, refresh_token = @p5, refresh_token_expiry = @p6, updated_at = @p7
+WHERE id = @p8;
+2025-12-29 13:03:48.418 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:03:48.420 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Logout (inventory-api) in 83.3841ms
+2025-12-29 13:03:48.426 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Logout (inventory-api)'
+2025-12-29 13:03:48.429 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 104ms
+2025-12-29 13:03:48.431 +03:00 [INF] HTTP POST /api/auth/logout responded 200 in 106.5968 ms
+2025-12-29 13:03:48.433 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/logout - 200 null application/json; charset=utf-8 115.5982ms
+2025-12-29 13:03:55.932 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/login - application/json 61
+2025-12-29 13:03:55.935 +03:00 [INF] HTTP POST /api/auth/login started
+2025-12-29 13:03:55.939 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2025-12-29 13:03:55.941 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Login(inventory_api.DTOs.Auth.LoginRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 13:03:55.949 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0
+LIMIT 1
+2025-12-29 13:03:56.158 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET refresh_token = @p0, refresh_token_expiry = @p1, updated_at = @p2
+WHERE id = @p3;
+2025-12-29 13:03:56.165 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Auth.LoginResponseDto'.
+2025-12-29 13:03:56.168 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Login (inventory-api) in 223.1513ms
+2025-12-29 13:03:56.170 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2025-12-29 13:03:56.173 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 237ms
+2025-12-29 13:03:56.176 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 241.1943 ms
+2025-12-29 13:03:56.180 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/login - 200 null application/json; charset=utf-8 247.9573ms
+2025-12-29 13:04:19.233 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/auth/me - application/json 61
+2025-12-29 13:04:19.250 +03:00 [INF] HTTP POST /api/auth/me started
+2025-12-29 13:04:19.254 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-29 13:04:19.259 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-29 13:04:19.260 +03:00 [INF] HTTP POST /api/auth/me responded 405 in 9ms
+2025-12-29 13:04:19.262 +03:00 [INF] HTTP POST /api/auth/me responded 405 in 11.9862 ms
+2025-12-29 13:04:19.265 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/auth/me - 405 0 null 32.1451ms
+2025-12-29 13:04:22.875 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/auth/me - application/json 61
+2025-12-29 13:04:22.877 +03:00 [INF] HTTP GET /api/auth/me started
+2025-12-29 13:04:22.879 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api)'
+2025-12-29 13:04:22.880 +03:00 [INF] Route matched with {action = "GetCurrentUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.UserDto]] GetCurrentUser() on controller inventory_api.Controllers.AuthController (inventory-api).
+2025-12-29 13:04:22.886 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:04:22.889 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api) in 4.1584ms
+2025-12-29 13:04:22.892 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.GetCurrentUser (inventory-api)'
+2025-12-29 13:04:22.894 +03:00 [INF] HTTP GET /api/auth/me responded 200 in 16ms
+2025-12-29 13:04:22.901 +03:00 [INF] HTTP GET /api/auth/me responded 200 in 23.9693 ms
+2025-12-29 13:04:22.903 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/auth/me - 200 null application/json; charset=utf-8 28.4206ms
+2025-12-29 13:04:59.501 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/products - application/json 225
+2025-12-29 13:04:59.506 +03:00 [INF] HTTP POST /api/products started
+2025-12-29 13:04:59.509 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:04:59.515 +03:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Create(inventory_api.DTOs.Product.CreateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:04:59.659 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO products (id, barcode, category, created_at, description, image_url, name, price, stock, updated_at, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING is_deleted;
+2025-12-29 13:04:59.670 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'inventory_api.DTOs.Product.ProductDto'.
+2025-12-29 13:04:59.707 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Create (inventory-api) in 183.3918ms
+2025-12-29 13:04:59.711 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:04:59.714 +03:00 [INF] HTTP POST /api/products responded 201 in 207ms
+2025-12-29 13:04:59.718 +03:00 [INF] HTTP POST /api/products responded 201 in 211.9501 ms
+2025-12-29 13:04:59.720 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/products - 201 null application/json; charset=utf-8 219.0142ms
+2025-12-29 13:05:10.255 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - application/json 225
+2025-12-29 13:05:10.259 +03:00 [INF] HTTP GET /api/products started
+2025-12-29 13:05:10.263 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:05:10.268 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:05:10.297 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:05:10.307 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:05:10.317 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 43.497ms
+2025-12-29 13:05:10.319 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:05:10.324 +03:00 [INF] HTTP GET /api/products responded 200 in 64ms
+2025-12-29 13:05:10.329 +03:00 [INF] HTTP GET /api/products responded 200 in 70.2447 ms
+2025-12-29 13:05:10.332 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 200 null application/json; charset=utf-8 76.8909ms
+2025-12-29 13:05:39.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440001 - application/json 225
+2025-12-29 13:05:39.797 +03:00 [INF] HTTP GET /api/products/550e8400-e29b-41d4-a716-446655440001 started
+2025-12-29 13:05:39.799 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetById (inventory-api)'
+2025-12-29 13:05:39.806 +03:00 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] GetById(System.Guid) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:05:39.829 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2025-12-29 13:05:39.848 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Product.ProductDto'.
+2025-12-29 13:05:39.855 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetById (inventory-api) in 40.2468ms
+2025-12-29 13:05:39.859 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetById (inventory-api)'
+2025-12-29 13:05:39.861 +03:00 [INF] HTTP GET /api/products/550e8400-e29b-41d4-a716-446655440001 responded 200 in 64ms
+2025-12-29 13:05:39.864 +03:00 [INF] HTTP GET /api/products/550e8400-e29b-41d4-a716-446655440001 responded 200 in 67.1032 ms
+2025-12-29 13:05:39.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440001 - 200 null application/json; charset=utf-8 74.4624ms
+2025-12-29 13:06:00.876 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/barcode/1234567890123 - application/json 225
+2025-12-29 13:06:00.885 +03:00 [INF] HTTP GET /api/products/barcode/1234567890123 started
+2025-12-29 13:06:00.888 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetByBarcode (inventory-api)'
+2025-12-29 13:06:00.895 +03:00 [INF] Route matched with {action = "GetByBarcode", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] GetByBarcode(System.String) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:06:00.919 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__barcode_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.barcode = @__barcode_1
+LIMIT 1
+2025-12-29 13:06:00.931 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Product.ProductDto'.
+2025-12-29 13:06:00.934 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetByBarcode (inventory-api) in 29.4602ms
+2025-12-29 13:06:00.936 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetByBarcode (inventory-api)'
+2025-12-29 13:06:00.937 +03:00 [INF] HTTP GET /api/products/barcode/1234567890123 responded 200 in 51ms
+2025-12-29 13:06:00.944 +03:00 [INF] HTTP GET /api/products/barcode/1234567890123 responded 200 in 58.3183 ms
+2025-12-29 13:06:00.946 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/barcode/1234567890123 - 200 null application/json; charset=utf-8 70.4493ms
+2025-12-29 13:06:42.822 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-44665544000 - application/json 226
+2025-12-29 13:06:42.828 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-44665544000 started
+2025-12-29 13:06:42.831 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:06:42.837 +03:00 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Update(System.Guid, inventory_api.DTOs.Product.UpdateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:06:42.879 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-12-29 13:06:42.914 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Update (inventory-api) in 65.7385ms
+2025-12-29 13:06:42.917 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:06:42.919 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-44665544000 responded 400 in 90ms
+2025-12-29 13:06:42.921 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-44665544000 responded 400 in 92.7316 ms
+2025-12-29 13:06:42.924 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-44665544000 - 400 null application/problem+json; charset=utf-8 101.256ms
+2025-12-29 13:07:36.321 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440001 - application/json 225
+2025-12-29 13:07:36.325 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440001 started
+2025-12-29 13:07:36.327 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:07:36.329 +03:00 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Update(System.Guid, inventory_api.DTOs.Product.UpdateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:07:36.344 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-12-29 13:07:36.347 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Update (inventory-api) in 13.6985ms
+2025-12-29 13:07:36.351 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:07:36.353 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440001 responded 400 in 28ms
+2025-12-29 13:07:36.357 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440001 responded 400 in 32.6173 ms
+2025-12-29 13:07:36.359 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440001 - 400 null application/problem+json; charset=utf-8 38.1801ms
+2025-12-29 13:09:44.898 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/products - application/json 226
+2025-12-29 13:09:44.907 +03:00 [INF] HTTP POST /api/products started
+2025-12-29 13:09:44.912 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:09:44.914 +03:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Create(inventory_api.DTOs.Product.CreateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:09:45.015 +03:00 [ERR] Failed executing DbCommand (31ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO products (id, barcode, category, created_at, description, image_url, name, price, stock, updated_at, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING is_deleted;
+2025-12-29 13:09:45.042 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'inventory_api.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: products
+    ConstraintName: PK_products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: products
+    ConstraintName: PK_products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-12-29 13:09:45.138 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Create (inventory-api) in 213.1869ms
+2025-12-29 13:09:45.142 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:09:45.145 +03:00 [INF] HTTP POST /api/products responded 200 in 238ms
+2025-12-29 13:09:45.152 +03:00 [ERR] Unhandled exception occurred: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: products
+    ConstraintName: PK_products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at inventory_api.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\Dell\Desktop\inventory-api\inventory-api\data\app-db-context.cs:line 64
+   at inventory_api.Services.Implementations.ProductService.CreateAsync(CreateProductDto dto, Guid userId) in C:\Users\Dell\Desktop\inventory-api\inventory-api\services\implementations\product-service.cs:line 67
+   at inventory_api.Controllers.ProductsController.Create(CreateProductDto dto) in C:\Users\Dell\Desktop\inventory-api\inventory-api\controllers\products-controller.cs:line 87
+   at lambda_method190(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at inventory_api.Middleware.JwtMiddleware.InvokeAsync(HttpContext context) in C:\Users\Dell\Desktop\inventory-api\inventory-api\middleware\jwt-middleware.cs:line 35
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at inventory_api.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Dell\Desktop\inventory-api\inventory-api\middleware\request-logging-middleware.cs:line 34
+   at inventory_api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\Dell\Desktop\inventory-api\inventory-api\middleware\exception-middleware.cs:line 29
+2025-12-29 13:09:45.333 +03:00 [ERR] HTTP POST /api/products responded 500 in 426.1899 ms
+2025-12-29 13:09:45.339 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/products - 500 null application/json 441.3883ms
+2025-12-29 13:09:55.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - application/json 226
+2025-12-29 13:09:55.863 +03:00 [INF] HTTP GET /api/products started
+2025-12-29 13:09:55.865 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:09:55.867 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:09:55.882 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:09:55.888 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:09:55.894 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 17.7648ms
+2025-12-29 13:09:55.899 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:09:55.901 +03:00 [INF] HTTP GET /api/products responded 200 in 38ms
+2025-12-29 13:09:55.903 +03:00 [INF] HTTP GET /api/products responded 200 in 40.2436 ms
+2025-12-29 13:09:55.908 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 200 null application/json; charset=utf-8 49.2488ms
+2025-12-29 13:10:07.732 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - application/json 226
+2025-12-29 13:10:07.738 +03:00 [INF] HTTP GET /api/products started
+2025-12-29 13:10:07.745 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:10:07.749 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:10:07.761 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:10:07.768 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:10:07.774 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 14.816ms
+2025-12-29 13:10:07.776 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:10:07.778 +03:00 [INF] HTTP GET /api/products responded 200 in 39ms
+2025-12-29 13:10:07.784 +03:00 [INF] HTTP GET /api/products responded 200 in 45.7101 ms
+2025-12-29 13:10:07.787 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 200 null application/json; charset=utf-8 55.5183ms
+2025-12-29 13:10:12.772 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/products - application/json 226
+2025-12-29 13:10:12.776 +03:00 [INF] HTTP POST /api/products started
+2025-12-29 13:10:12.779 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:10:12.784 +03:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Create(inventory_api.DTOs.Product.CreateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:10:12.799 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?', @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO products (id, barcode, category, created_at, description, image_url, name, price, stock, updated_at, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+RETURNING is_deleted;
+2025-12-29 13:10:12.806 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'inventory_api.DTOs.Product.ProductDto'.
+2025-12-29 13:10:12.809 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Create (inventory-api) in 19.9544ms
+2025-12-29 13:10:12.812 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Create (inventory-api)'
+2025-12-29 13:10:12.815 +03:00 [INF] HTTP POST /api/products responded 201 in 38ms
+2025-12-29 13:10:12.822 +03:00 [INF] HTTP POST /api/products responded 201 in 46.4055 ms
+2025-12-29 13:10:12.826 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/products - 201 null application/json; charset=utf-8 54.7577ms
+2025-12-29 13:10:35.081 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - application/json 226
+2025-12-29 13:10:35.086 +03:00 [INF] HTTP GET /api/products started
+2025-12-29 13:10:35.088 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:10:35.090 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:10:35.098 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:10:35.107 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:10:35.111 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 14.8145ms
+2025-12-29 13:10:35.114 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:10:35.116 +03:00 [INF] HTTP GET /api/products responded 200 in 30ms
+2025-12-29 13:10:35.121 +03:00 [INF] HTTP GET /api/products responded 200 in 35.2370 ms
+2025-12-29 13:10:35.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 200 null application/json; charset=utf-8 42.5987ms
+2025-12-29 13:11:23.710 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - application/json 214
+2025-12-29 13:11:23.716 +03:00 [INF] HTTP POST /api/products/550e8400-e29b-41d4-a716-446655440002 started
+2025-12-29 13:11:23.719 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-12-29 13:11:23.720 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-12-29 13:11:23.723 +03:00 [INF] HTTP POST /api/products/550e8400-e29b-41d4-a716-446655440002 responded 405 in 6ms
+2025-12-29 13:11:23.728 +03:00 [INF] HTTP POST /api/products/550e8400-e29b-41d4-a716-446655440002 responded 405 in 12.3311 ms
+2025-12-29 13:11:23.730 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - 405 0 null 19.9739ms
+2025-12-29 13:11:32.881 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - application/json 214
+2025-12-29 13:11:32.888 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 started
+2025-12-29 13:11:32.892 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:11:32.895 +03:00 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Update(System.Guid, inventory_api.DTOs.Product.UpdateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:11:32.918 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2025-12-29 13:11:32.932 +03:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:11:32.935 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Update (inventory-api) in 29.3561ms
+2025-12-29 13:11:32.939 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:11:32.942 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 responded 409 in 53ms
+2025-12-29 13:11:32.943 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 responded 409 in 55.2706 ms
+2025-12-29 13:11:32.950 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - 409 null application/json; charset=utf-8 69.2646ms
+2025-12-29 13:13:04.481 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - application/json 214
+2025-12-29 13:13:04.490 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 started
+2025-12-29 13:13:04.494 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:13:04.500 +03:00 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.ProductDto]] Update(System.Guid, inventory_api.DTOs.Product.UpdateProductDto) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:13:04.511 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2025-12-29 13:13:04.520 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+2025-12-29 13:13:04.530 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Product.ProductDto'.
+2025-12-29 13:13:04.534 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Update (inventory-api) in 26.411ms
+2025-12-29 13:13:04.536 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Update (inventory-api)'
+2025-12-29 13:13:04.538 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 responded 200 in 48ms
+2025-12-29 13:13:04.544 +03:00 [INF] HTTP PUT /api/products/550e8400-e29b-41d4-a716-446655440002 responded 200 in 54.5143 ms
+2025-12-29 13:13:04.547 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - 200 null application/json; charset=utf-8 65.6545ms
+2025-12-29 13:13:45.693 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - application/json 214
+2025-12-29 13:13:45.699 +03:00 [INF] HTTP DELETE /api/products/550e8400-e29b-41d4-a716-446655440002 started
+2025-12-29 13:13:45.701 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Delete (inventory-api)'
+2025-12-29 13:13:45.707 +03:00 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:13:45.730 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2025-12-29 13:13:45.745 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Guid), @p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET is_deleted = @p0, updated_at = @p1
+WHERE id = @p2;
+2025-12-29 13:13:45.752 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-29 13:13:45.753 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Delete (inventory-api) in 35.5551ms
+2025-12-29 13:13:45.758 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Delete (inventory-api)'
+2025-12-29 13:13:45.763 +03:00 [INF] HTTP DELETE /api/products/550e8400-e29b-41d4-a716-446655440002 responded 204 in 64ms
+2025-12-29 13:13:45.764 +03:00 [INF] HTTP DELETE /api/products/550e8400-e29b-41d4-a716-446655440002 responded 204 in 65.7866 ms
+2025-12-29 13:13:45.767 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5215/api/products/550e8400-e29b-41d4-a716-446655440002 - 204 null null 73.2026ms
+2025-12-29 13:14:04.201 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products - application/json 214
+2025-12-29 13:14:04.206 +03:00 [INF] HTTP GET /api/products started
+2025-12-29 13:14:04.210 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:14:04.212 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:14:04.218 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:14:04.231 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:14:04.240 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 24.1263ms
+2025-12-29 13:14:04.245 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:14:04.247 +03:00 [INF] HTTP GET /api/products responded 200 in 41ms
+2025-12-29 13:14:04.250 +03:00 [INF] HTTP GET /api/products responded 200 in 44.6802 ms
+2025-12-29 13:14:04.261 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products - 200 null application/json; charset=utf-8 59.7515ms
+2025-12-29 13:14:31.606 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/search?term=iphone - application/json 214
+2025-12-29 13:14:31.609 +03:00 [INF] HTTP GET /api/products/search started
+2025-12-29 13:14:31.611 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.Search (inventory-api)'
+2025-12-29 13:14:31.615 +03:00 [INF] Route matched with {action = "Search", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] Search(System.String) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:14:31.651 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lowerSearchTerm_1_contains='?', @__searchTerm_2_contains='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND (lower(p.name) LIKE @__lowerSearchTerm_1_contains OR (p.barcode IS NOT NULL AND p.barcode LIKE @__searchTerm_2_contains))
+ORDER BY p.name
+2025-12-29 13:14:31.659 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:14:31.661 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.Search (inventory-api) in 39.8278ms
+2025-12-29 13:14:31.664 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.Search (inventory-api)'
+2025-12-29 13:14:31.666 +03:00 [INF] HTTP GET /api/products/search responded 200 in 56ms
+2025-12-29 13:14:31.669 +03:00 [INF] HTTP GET /api/products/search responded 200 in 59.5822 ms
+2025-12-29 13:14:31.673 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/search?term=iphone - 200 null application/json; charset=utf-8 67.2162ms
+2025-12-29 13:14:50.480 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=10 - application/json 214
+2025-12-29 13:14:50.486 +03:00 [INF] HTTP GET /api/products/low-stock started
+2025-12-29 13:14:50.488 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:14:50.492 +03:00 [INF] Route matched with {action = "GetLowStock", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetLowStock(Int32) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:14:50.569 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__threshold_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.stock <= @__threshold_1
+ORDER BY p.stock
+2025-12-29 13:14:50.574 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:14:50.576 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetLowStock (inventory-api) in 74.5205ms
+2025-12-29 13:14:50.579 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:14:50.582 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 96ms
+2025-12-29 13:14:50.584 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 98.5647 ms
+2025-12-29 13:14:50.586 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=10 - 200 null application/json; charset=utf-8 106.4256ms
+2025-12-29 13:14:56.581 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=2 - application/json 214
+2025-12-29 13:14:56.586 +03:00 [INF] HTTP GET /api/products/low-stock started
+2025-12-29 13:14:56.588 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:14:56.588 +03:00 [INF] Route matched with {action = "GetLowStock", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetLowStock(Int32) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:14:56.596 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__threshold_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.stock <= @__threshold_1
+ORDER BY p.stock
+2025-12-29 13:14:56.607 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:14:56.611 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetLowStock (inventory-api) in 17.8645ms
+2025-12-29 13:14:56.616 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:14:56.618 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 32ms
+2025-12-29 13:14:56.623 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 36.8948 ms
+2025-12-29 13:14:56.627 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=2 - 200 null application/json; charset=utf-8 45.3346ms
+2025-12-29 13:15:13.253 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/ - application/json 214
+2025-12-29 13:15:13.259 +03:00 [INF] HTTP GET /api/products/ started
+2025-12-29 13:15:13.263 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:15:13.264 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetAll() on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:15:13.269 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0
+ORDER BY p.updated_at DESC
+2025-12-29 13:15:13.283 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:15:13.286 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetAll (inventory-api) in 18.8277ms
+2025-12-29 13:15:13.297 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetAll (inventory-api)'
+2025-12-29 13:15:13.299 +03:00 [INF] HTTP GET /api/products/ responded 200 in 39ms
+2025-12-29 13:15:13.303 +03:00 [INF] HTTP GET /api/products/ responded 200 in 43.5776 ms
+2025-12-29 13:15:13.306 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/ - 200 null application/json; charset=utf-8 53.0818ms
+2025-12-29 13:15:20.795 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=50 - application/json 214
+2025-12-29 13:15:20.800 +03:00 [INF] HTTP GET /api/products/low-stock started
+2025-12-29 13:15:20.802 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:15:20.804 +03:00 [INF] Route matched with {action = "GetLowStock", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetLowStock(Int32) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:15:20.812 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__threshold_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.stock <= @__threshold_1
+ORDER BY p.stock
+2025-12-29 13:15:20.822 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:15:20.825 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetLowStock (inventory-api) in 15.2212ms
+2025-12-29 13:15:20.828 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:15:20.831 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 31ms
+2025-12-29 13:15:20.835 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 35.1391 ms
+2025-12-29 13:15:20.841 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=50 - 200 null application/json; charset=utf-8 45.5865ms
+2025-12-29 13:15:25.745 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=500 - application/json 214
+2025-12-29 13:15:25.755 +03:00 [INF] HTTP GET /api/products/low-stock started
+2025-12-29 13:15:25.758 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:15:25.759 +03:00 [INF] Route matched with {action = "GetLowStock", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetLowStock(Int32) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:15:25.765 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__threshold_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.stock <= @__threshold_1
+ORDER BY p.stock
+2025-12-29 13:15:25.775 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:15:25.778 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetLowStock (inventory-api) in 15.2893ms
+2025-12-29 13:15:25.783 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetLowStock (inventory-api)'
+2025-12-29 13:15:25.786 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 31ms
+2025-12-29 13:15:25.792 +03:00 [INF] HTTP GET /api/products/low-stock responded 200 in 37.4486 ms
+2025-12-29 13:15:25.794 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/low-stock?threshold=500 - 200 null application/json; charset=utf-8 49.2829ms
+2025-12-29 13:16:17.652 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/products/category/Elektronik - application/json 214
+2025-12-29 13:16:17.663 +03:00 [INF] HTTP GET /api/products/category/Elektronik started
+2025-12-29 13:16:17.671 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.ProductsController.GetByCategory (inventory-api)'
+2025-12-29 13:16:17.682 +03:00 [INF] Route matched with {action = "GetByCategory", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.ProductDto]]] GetByCategory(System.String) on controller inventory_api.Controllers.ProductsController (inventory-api).
+2025-12-29 13:16:17.707 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__category_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.user_id = @__userId_0 AND p.category = @__category_1
+ORDER BY p.name
+2025-12-29 13:16:17.715 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[inventory_api.Models.Product, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[inventory_api.DTOs.Product.ProductDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:16:17.721 +03:00 [INF] Executed action inventory_api.Controllers.ProductsController.GetByCategory (inventory-api) in 26.717ms
+2025-12-29 13:16:17.726 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.ProductsController.GetByCategory (inventory-api)'
+2025-12-29 13:16:17.729 +03:00 [INF] HTTP GET /api/products/category/Elektronik responded 200 in 65ms
+2025-12-29 13:16:17.734 +03:00 [INF] HTTP GET /api/products/category/Elektronik responded 200 in 70.3055 ms
+2025-12-29 13:16:17.737 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/products/category/Elektronik - 200 null application/json; charset=utf-8 84.7975ms
+2025-12-29 13:17:17.891 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1735408800000 - application/json 214
+2025-12-29 13:17:17.895 +03:00 [INF] HTTP GET /api/sync/pull started
+2025-12-29 13:17:17.899 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:17:17.904 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2025-12-29 13:17:17.911 +03:00 [INF] User "30f68c45-67ae-4d1c-89a3-629eed7bf2e9" pulling changes since 1735408800000
+2025-12-29 13:17:17.921 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2025-12-29 13:17:17.970 +03:00 [ERR] Pull failed for user "30f68c45-67ae-4d1c-89a3-629eed7bf2e9"
+System.InvalidOperationException: The property 'SyncLog.UpdatedAt' could not be found. Ensure that the property exists and has been included in the model.
+   at Microsoft.EntityFrameworkCore.Metadata.IReadOnlyTypeBase.GetProperty(String name)
+   at Microsoft.EntityFrameworkCore.Metadata.IEntityType.GetProperty(String name)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.Property(String propertyName)
+   at inventory_api.Data.AppDbContext.UpdateTimestamps() in C:\Users\Dell\Desktop\inventory-api\inventory-api\data\app-db-context.cs:line 87
+   at inventory_api.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\Dell\Desktop\inventory-api\inventory-api\data\app-db-context.cs:line 63
+   at inventory_api.Services.Implementations.SyncService.LogSyncAsync(Guid userId, String syncType, Int32 recordCount, String status, String errorMessage) in C:\Users\Dell\Desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 176
+   at inventory_api.Services.Implementations.SyncService.PullChangesAsync(Guid userId, Int64 lastPulledAt) in C:\Users\Dell\Desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 78
+   at inventory_api.Controllers.SyncController.Pull(Int64 lastPulledAt) in C:\Users\Dell\Desktop\inventory-api\inventory-api\controllers\sync-controller.cs:line 45
+2025-12-29 13:17:17.988 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:17:17.990 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 81.6629ms
+2025-12-29 13:17:17.996 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:17:18.002 +03:00 [INF] HTTP GET /api/sync/pull responded 500 in 106ms
+2025-12-29 13:17:18.004 +03:00 [ERR] HTTP GET /api/sync/pull responded 500 in 108.7929 ms
+2025-12-29 13:17:18.007 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1735408800000 - 500 null application/json; charset=utf-8 115.7106ms
+2025-12-29 13:30:01.274 +03:00 [INF] Application is shutting down...
+2025-12-29 13:30:11.055 +03:00 [INF] Starting Inventory API...
+2025-12-29 13:30:11.696 +03:00 [INF] Inventory API started successfully
+2025-12-29 13:30:11.730 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-29 13:30:11.911 +03:00 [INF] Now listening on: http://localhost:5215
+2025-12-29 13:30:11.915 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-29 13:30:11.918 +03:00 [INF] Hosting environment: Development
+2025-12-29 13:30:11.919 +03:00 [INF] Content root path: C:\Users\Dell\Desktop\inventory-api\inventory-api
+2025-12-29 13:30:16.882 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1735408800000 - application/json 214
+2025-12-29 13:30:16.969 +03:00 [INF] HTTP GET /api/sync/pull started
+2025-12-29 13:30:16.974 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-12-29 13:30:17.104 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:30:17.127 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2025-12-29 13:30:17.744 +03:00 [WRN] Entity 'Product' has a global query filter defined and is the required end of a relationship with the entity 'StockMovement'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-12-29 13:30:17.752 +03:00 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'SyncLog'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-12-29 13:30:17.912 +03:00 [INF] User "30f68c45-67ae-4d1c-89a3-629eed7bf2e9" pulling changes since 1735408800000
+2025-12-29 13:30:18.519 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2025-12-29 13:30:18.808 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-12-29 13:30:18.825 +03:00 [INF] Pull completed for user "30f68c45-67ae-4d1c-89a3-629eed7bf2e9": 1 created, 0 updated, 1 deleted
+2025-12-29 13:30:18.837 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2025-12-29 13:30:18.893 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 1757.1406ms
+2025-12-29 13:30:18.901 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:30:18.905 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 1938ms
+2025-12-29 13:30:18.910 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 1943.8636 ms
+2025-12-29 13:30:18.925 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1735408800000 - 200 null application/json; charset=utf-8 2047.1641ms
+2025-12-29 13:32:57.471 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1767004218647 - application/json 214
+2025-12-29 13:32:57.479 +03:00 [INF] HTTP GET /api/sync/pull started
+2025-12-29 13:32:57.486 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:32:57.490 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2025-12-29 13:32:57.558 +03:00 [INF] User "30f68c45-67ae-4d1c-89a3-629eed7bf2e9" pulling changes since 1767004218647
+2025-12-29 13:32:57.568 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2025-12-29 13:32:57.583 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-12-29 13:32:57.589 +03:00 [INF] Pull completed for user "30f68c45-67ae-4d1c-89a3-629eed7bf2e9": 0 created, 0 updated, 0 deleted
+2025-12-29 13:32:57.591 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2025-12-29 13:32:57.593 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 97.2668ms
+2025-12-29 13:32:57.596 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2025-12-29 13:32:57.598 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 119ms
+2025-12-29 13:32:57.604 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 125.0988 ms
+2025-12-29 13:32:57.609 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/sync/pull?lastPulledAt=1767004218647 - 200 null application/json; charset=utf-8 137.7166ms
+2025-12-29 13:33:15.140 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/sync/push - application/json 214
+2025-12-29 13:33:15.147 +03:00 [INF] HTTP POST /api/sync/push started
+2025-12-29 13:33:15.160 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2025-12-29 13:33:15.173 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2025-12-29 13:33:15.244 +03:00 [INF] User "30f68c45-67ae-4d1c-89a3-629eed7bf2e9" pushing changes: 0 created, 0 updated, 0 deleted
+2025-12-29 13:33:15.253 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-12-29 13:33:15.259 +03:00 [INF] Push completed successfully for user "30f68c45-67ae-4d1c-89a3-629eed7bf2e9"
+2025-12-29 13:33:15.262 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-29 13:33:15.269 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 84.9074ms
+2025-12-29 13:33:15.272 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2025-12-29 13:33:15.273 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 125ms
+2025-12-29 13:33:15.275 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 128.0563 ms
+2025-12-29 13:33:15.278 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/sync/push - 200 null application/json; charset=utf-8 137.7501ms
+2025-12-29 13:34:32.415 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/stock-movements - application/json 120
+2025-12-29 13:34:32.421 +03:00 [INF] HTTP POST /api/stock-movements started
+2025-12-29 13:34:32.423 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api)'
+2025-12-29 13:34:32.430 +03:00 [INF] Route matched with {action = "AddMovement", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.StockMovementDto]] AddMovement(inventory_api.Controllers.AddStockMovementRequest) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:34:32.509 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2025-12-29 13:34:32.618 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Guid), @p16='?' (DbType = Int32), @p17='?', @p18='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO stock_movements (id, created_at, note, product_id, quantity, type, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2025-12-29 13:34:32.638 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'inventory_api.DTOs.Product.StockMovementDto'.
+2025-12-29 13:34:32.659 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api) in 221.304ms
+2025-12-29 13:34:32.668 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api)'
+2025-12-29 13:34:32.671 +03:00 [INF] HTTP POST /api/stock-movements responded 201 in 249ms
+2025-12-29 13:34:32.673 +03:00 [INF] HTTP POST /api/stock-movements responded 201 in 252.0033 ms
+2025-12-29 13:34:32.676 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/stock-movements - 201 null application/json; charset=utf-8 260.8318ms
+2025-12-29 13:34:56.841 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5215/api/stock-movements - application/json 117
+2025-12-29 13:34:56.848 +03:00 [INF] HTTP POST /api/stock-movements started
+2025-12-29 13:34:56.852 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api)'
+2025-12-29 13:34:56.855 +03:00 [INF] Route matched with {action = "AddMovement", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Product.StockMovementDto]] AddMovement(inventory_api.Controllers.AddStockMovementRequest) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:34:56.870 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2025-12-29 13:34:56.880 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Guid), @p16='?' (DbType = Int32), @p17='?', @p18='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO stock_movements (id, created_at, note, product_id, quantity, type, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2025-12-29 13:34:56.892 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'inventory_api.DTOs.Product.StockMovementDto'.
+2025-12-29 13:34:56.897 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api) in 31.0854ms
+2025-12-29 13:34:56.900 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.AddMovement (inventory-api)'
+2025-12-29 13:34:56.902 +03:00 [INF] HTTP POST /api/stock-movements responded 201 in 53ms
+2025-12-29 13:34:56.904 +03:00 [INF] HTTP POST /api/stock-movements responded 201 in 56.0541 ms
+2025-12-29 13:34:56.906 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5215/api/stock-movements - 201 null application/json; charset=utf-8 65.4205ms
+2025-12-29 13:35:50.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/stock-movements/product/550e8400-e29b-41d4-a716-446655440001 - application/json 117
+2025-12-29 13:35:50.532 +03:00 [INF] HTTP GET /api/stock-movements/product/550e8400-e29b-41d4-a716-446655440001 started
+2025-12-29 13:35:50.536 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.GetByProduct (inventory-api)'
+2025-12-29 13:35:50.545 +03:00 [INF] Route matched with {action = "GetByProduct", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.StockMovementDto]]] GetByProduct(System.Guid) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:35:50.678 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__productId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT s.id, s.created_at, s.note, s.product_id, s.quantity, s.type, s.user_id, p0.id, p0.barcode, p0.category, p0.created_at, p0.description, p0.image_url, p0.is_deleted, p0.name, p0.price, p0.stock, p0.updated_at, p0.user_id
+FROM stock_movements AS s
+INNER JOIN (
+    SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+    FROM products AS p
+    WHERE NOT (p.is_deleted)
+) AS p0 ON s.product_id = p0.id
+WHERE s.product_id = @__productId_0
+ORDER BY s.created_at DESC
+2025-12-29 13:35:50.694 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[inventory_api.DTOs.Product.StockMovementDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:35:50.700 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.GetByProduct (inventory-api) in 144.2942ms
+2025-12-29 13:35:50.707 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.GetByProduct (inventory-api)'
+2025-12-29 13:35:50.710 +03:00 [INF] HTTP GET /api/stock-movements/product/550e8400-e29b-41d4-a716-446655440001 responded 200 in 178ms
+2025-12-29 13:35:50.712 +03:00 [INF] HTTP GET /api/stock-movements/product/550e8400-e29b-41d4-a716-446655440001 responded 200 in 180.0731 ms
+2025-12-29 13:35:50.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/stock-movements/product/550e8400-e29b-41d4-a716-446655440001 - 200 null application/json; charset=utf-8 191.0773ms
+2025-12-29 13:36:13.133 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=10 - application/json 117
+2025-12-29 13:36:13.138 +03:00 [INF] HTTP GET /api/stock-movements/recent started
+2025-12-29 13:36:13.140 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:13.146 +03:00 [INF] Route matched with {action = "GetRecent", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.StockMovementDto]]] GetRecent(Int32) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:36:13.172 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s0.id, s0.created_at, s0.note, s0.product_id, s0.quantity, s0.type, s0.user_id, p0.id, p0.barcode, p0.category, p0.created_at, p0.description, p0.image_url, p0.is_deleted, p0.name, p0.price, p0.stock, p0.updated_at, p0.user_id
+FROM (
+    SELECT s.id, s.created_at, s.note, s.product_id, s.quantity, s.type, s.user_id
+    FROM stock_movements AS s
+    WHERE s.user_id = @__userId_0
+    ORDER BY s.created_at DESC
+    LIMIT @__p_1
+) AS s0
+INNER JOIN (
+    SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+    FROM products AS p
+    WHERE NOT (p.is_deleted)
+) AS p0 ON s0.product_id = p0.id
+ORDER BY s0.created_at DESC
+2025-12-29 13:36:13.188 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[inventory_api.DTOs.Product.StockMovementDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:36:13.193 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api) in 34.9845ms
+2025-12-29 13:36:13.195 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:13.201 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 62ms
+2025-12-29 13:36:13.203 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 64.6921 ms
+2025-12-29 13:36:13.206 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=10 - 200 null application/json; charset=utf-8 73.1379ms
+2025-12-29 13:36:26.139 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=100 - application/json 117
+2025-12-29 13:36:26.145 +03:00 [INF] HTTP GET /api/stock-movements/recent started
+2025-12-29 13:36:26.148 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:26.150 +03:00 [INF] Route matched with {action = "GetRecent", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.StockMovementDto]]] GetRecent(Int32) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:36:26.158 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s0.id, s0.created_at, s0.note, s0.product_id, s0.quantity, s0.type, s0.user_id, p0.id, p0.barcode, p0.category, p0.created_at, p0.description, p0.image_url, p0.is_deleted, p0.name, p0.price, p0.stock, p0.updated_at, p0.user_id
+FROM (
+    SELECT s.id, s.created_at, s.note, s.product_id, s.quantity, s.type, s.user_id
+    FROM stock_movements AS s
+    WHERE s.user_id = @__userId_0
+    ORDER BY s.created_at DESC
+    LIMIT @__p_1
+) AS s0
+INNER JOIN (
+    SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+    FROM products AS p
+    WHERE NOT (p.is_deleted)
+) AS p0 ON s0.product_id = p0.id
+ORDER BY s0.created_at DESC
+2025-12-29 13:36:26.167 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[inventory_api.DTOs.Product.StockMovementDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:36:26.173 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api) in 18.9688ms
+2025-12-29 13:36:26.183 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:26.184 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 39ms
+2025-12-29 13:36:26.189 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 44.0467 ms
+2025-12-29 13:36:26.197 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=100 - 200 null application/json; charset=utf-8 57.6403ms
+2025-12-29 13:36:34.001 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=2 - application/json 117
+2025-12-29 13:36:34.006 +03:00 [INF] HTTP GET /api/stock-movements/recent started
+2025-12-29 13:36:34.009 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:34.010 +03:00 [INF] Route matched with {action = "GetRecent", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.StockMovementDto]]] GetRecent(Int32) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:36:34.020 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s0.id, s0.created_at, s0.note, s0.product_id, s0.quantity, s0.type, s0.user_id, p0.id, p0.barcode, p0.category, p0.created_at, p0.description, p0.image_url, p0.is_deleted, p0.name, p0.price, p0.stock, p0.updated_at, p0.user_id
+FROM (
+    SELECT s.id, s.created_at, s.note, s.product_id, s.quantity, s.type, s.user_id
+    FROM stock_movements AS s
+    WHERE s.user_id = @__userId_0
+    ORDER BY s.created_at DESC
+    LIMIT @__p_1
+) AS s0
+INNER JOIN (
+    SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+    FROM products AS p
+    WHERE NOT (p.is_deleted)
+) AS p0 ON s0.product_id = p0.id
+ORDER BY s0.created_at DESC
+2025-12-29 13:36:34.033 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[inventory_api.DTOs.Product.StockMovementDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:36:34.041 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api) in 23.8826ms
+2025-12-29 13:36:34.047 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:36:34.050 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 43ms
+2025-12-29 13:36:34.055 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 48.8640 ms
+2025-12-29 13:36:34.061 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=2 - 200 null application/json; charset=utf-8 59.8574ms
+2025-12-29 13:37:22.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=1 - application/json 117
+2025-12-29 13:37:22.531 +03:00 [INF] HTTP GET /api/stock-movements/recent started
+2025-12-29 13:37:22.536 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:37:22.539 +03:00 [INF] Route matched with {action = "GetRecent", controller = "StockMovements"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[inventory_api.DTOs.Product.StockMovementDto]]] GetRecent(Int32) on controller inventory_api.Controllers.StockMovementsController (inventory-api).
+2025-12-29 13:37:22.551 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s0.id, s0.created_at, s0.note, s0.product_id, s0.quantity, s0.type, s0.user_id, p0.id, p0.barcode, p0.category, p0.created_at, p0.description, p0.image_url, p0.is_deleted, p0.name, p0.price, p0.stock, p0.updated_at, p0.user_id
+FROM (
+    SELECT s.id, s.created_at, s.note, s.product_id, s.quantity, s.type, s.user_id
+    FROM stock_movements AS s
+    WHERE s.user_id = @__userId_0
+    ORDER BY s.created_at DESC
+    LIMIT @__p_1
+) AS s0
+INNER JOIN (
+    SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+    FROM products AS p
+    WHERE NOT (p.is_deleted)
+) AS p0 ON s0.product_id = p0.id
+ORDER BY s0.created_at DESC
+2025-12-29 13:37:22.567 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[inventory_api.DTOs.Product.StockMovementDto, inventory-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 13:37:22.576 +03:00 [INF] Executed action inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api) in 27.6462ms
+2025-12-29 13:37:22.578 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.StockMovementsController.GetRecent (inventory-api)'
+2025-12-29 13:37:22.582 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 50ms
+2025-12-29 13:37:22.586 +03:00 [INF] HTTP GET /api/stock-movements/recent responded 200 in 55.1653 ms
+2025-12-29 13:37:22.591 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/api/stock-movements/recent?count=1 - 200 null application/json; charset=utf-8 65.6837ms
+2025-12-29 13:37:37.681 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5215/health - application/json 117
+2025-12-29 13:37:37.684 +03:00 [INF] HTTP GET /health started
+2025-12-29 13:37:37.686 +03:00 [INF] Executing endpoint 'HTTP: GET /health'
+2025-12-29 13:37:37.694 +03:00 [INF] Executed endpoint 'HTTP: GET /health'
+2025-12-29 13:37:37.696 +03:00 [INF] HTTP GET /health responded 200 in 12ms
+2025-12-29 13:37:37.700 +03:00 [INF] HTTP GET /health responded 200 in 15.8751 ms
+2025-12-29 13:37:37.705 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5215/health - 200 null application/json; charset=utf-8 24.4784ms

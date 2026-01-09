@@ -1,0 +1,745 @@
+2026-01-06 23:25:34.124 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 00:14:24.938 +03:00 [INF] HTTP GET / started
+2026-01-07 00:14:25.008 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 00:14:25.049 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 00:14:25.053 +03:00 [INF] HTTP GET / responded 200 in 116ms
+2026-01-07 00:14:25.060 +03:00 [INF] HTTP GET / responded 200 in 124.6402 ms
+2026-01-07 00:14:25.077 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 499 null application/json; charset=utf-8 2930955.6246ms
+2026-01-07 00:16:52.146 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 00:16:52.160 +03:00 [INF] HTTP GET / started
+2026-01-07 00:16:52.170 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 00:16:52.190 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 00:16:52.198 +03:00 [INF] HTTP GET / responded 200 in 37ms
+2026-01-07 00:16:52.211 +03:00 [INF] HTTP GET / responded 200 in 50.7689 ms
+2026-01-07 00:16:52.219 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 75.8657ms
+2026-01-07 11:33:09.897 +03:00 [INF] Starting Inventory API...
+2026-01-07 11:33:12.881 +03:00 [INF] Inventory API started successfully
+2026-01-07 11:33:12.933 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 11:33:17.495 +03:00 [INF] Now listening on: http://0.0.0.0:5215
+2026-01-07 11:33:17.500 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 11:33:17.503 +03:00 [INF] Hosting environment: Development
+2026-01-07 11:33:17.505 +03:00 [INF] Content root path: C:\Users\Dell\desktop\inventory-api\inventory-api
+2026-01-07 12:12:35.780 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 12:12:35.826 +03:00 [INF] HTTP GET / started
+2026-01-07 12:12:36.122 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 12:12:36.144 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 12:12:36.146 +03:00 [INF] HTTP GET / responded 200 in 321ms
+2026-01-07 12:12:36.156 +03:00 [INF] HTTP GET / responded 200 in 330.5501 ms
+2026-01-07 12:12:36.177 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 398.618ms
+2026-01-07 12:12:36.576 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/favicon.ico - null null
+2026-01-07 12:12:36.583 +03:00 [INF] HTTP GET /favicon.ico started
+2026-01-07 12:12:36.587 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 4ms
+2026-01-07 12:12:36.591 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 7.7901 ms
+2026-01-07 12:12:36.594 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/favicon.ico - 404 0 null 18.4711ms
+2026-01-07 12:12:36.600 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://192.168.1.113:5215/favicon.ico, Response status code: 404
+2026-01-07 12:15:19.067 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 12:15:19.072 +03:00 [INF] HTTP GET / started
+2026-01-07 12:15:19.078 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 12:15:19.081 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 12:15:19.083 +03:00 [INF] HTTP GET / responded 200 in 11ms
+2026-01-07 12:15:19.087 +03:00 [INF] HTTP GET / responded 200 in 14.7525 ms
+2026-01-07 12:15:19.090 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 23.3337ms
+2026-01-07 12:16:13.045 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/API/auth/login - null null
+2026-01-07 12:16:13.051 +03:00 [INF] HTTP GET /API/auth/login started
+2026-01-07 12:16:13.054 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-07 12:16:13.057 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-07 12:16:13.059 +03:00 [INF] HTTP GET /API/auth/login responded 405 in 7ms
+2026-01-07 12:16:13.062 +03:00 [INF] HTTP GET /API/auth/login responded 405 in 10.1801 ms
+2026-01-07 12:16:13.065 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/API/auth/login - 405 0 null 19.3086ms
+2026-01-07 21:39:20.777 +03:00 [INF] Starting Inventory API...
+2026-01-07 21:39:25.089 +03:00 [INF] Inventory API started successfully
+2026-01-07 21:39:25.304 +03:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 21:39:33.319 +03:00 [INF] Now listening on: http://0.0.0.0:5215
+2026-01-07 21:39:33.325 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 21:39:33.327 +03:00 [INF] Hosting environment: Development
+2026-01-07 21:39:33.328 +03:00 [INF] Content root path: C:\Users\Dell\desktop\inventory-api\inventory-api
+2026-01-07 21:53:55.103 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 21:53:55.136 +03:00 [INF] HTTP GET / started
+2026-01-07 21:53:55.182 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 21:53:55.199 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 21:53:55.202 +03:00 [INF] HTTP GET / responded 200 in 66ms
+2026-01-07 21:53:55.207 +03:00 [INF] HTTP GET / responded 200 in 72.4287 ms
+2026-01-07 21:53:55.226 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 126.5393ms
+2026-01-07 21:54:07.707 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - application/json 56
+2026-01-07 21:54:07.726 +03:00 [INF] HTTP POST /api/auth/login started
+2026-01-07 21:54:07.734 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 21:54:07.781 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Login(inventory_api.DTOs.Auth.LoginRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 21:54:09.000 +03:00 [WRN] Entity 'Product' has a global query filter defined and is the required end of a relationship with the entity 'StockMovement'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-01-07 21:54:09.004 +03:00 [WRN] Entity 'User' has a global query filter defined and is the required end of a relationship with the entity 'SyncLog'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-01-07 21:54:10.281 +03:00 [INF] Executed DbCommand (194ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.role, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0
+LIMIT 1
+2026-01-07 21:54:10.308 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 21:54:10.317 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Login (inventory-api) in 2526.1262ms
+2026-01-07 21:54:10.322 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 21:54:10.325 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 2599ms
+2026-01-07 21:54:10.327 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 2601.7684 ms
+2026-01-07 21:54:10.336 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - 401 null application/json; charset=utf-8 2629.5283ms
+2026-01-07 21:54:42.298 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - application/json 46
+2026-01-07 21:54:42.321 +03:00 [INF] HTTP POST /api/auth/login started
+2026-01-07 21:54:42.332 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 21:54:42.340 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Login(inventory_api.DTOs.Auth.LoginRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 21:54:42.433 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.role, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0
+LIMIT 1
+2026-01-07 21:54:42.441 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 21:54:42.446 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Login (inventory-api) in 96.4593ms
+2026-01-07 21:54:42.449 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 21:54:42.451 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 130ms
+2026-01-07 21:54:42.454 +03:00 [INF] HTTP POST /api/auth/login responded 401 in 133.2918 ms
+2026-01-07 21:54:42.457 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - 401 null application/json; charset=utf-8 159.4214ms
+2026-01-07 21:54:44.239 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/ - null null
+2026-01-07 21:54:44.255 +03:00 [INF] HTTP GET / started
+2026-01-07 21:54:44.267 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-01-07 21:54:44.276 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-01-07 21:54:44.286 +03:00 [INF] HTTP GET / responded 200 in 31ms
+2026-01-07 21:54:44.300 +03:00 [INF] HTTP GET / responded 200 in 44.9958 ms
+2026-01-07 21:54:44.306 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/ - 200 null application/json; charset=utf-8 66.6147ms
+2026-01-07 21:56:25.248 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - application/json 105
+2026-01-07 21:56:25.262 +03:00 [INF] HTTP POST /api/auth/register started
+2026-01-07 21:56:25.275 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 21:56:25.294 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 21:56:25.349 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-07 21:56:25.382 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 73.8302ms
+2026-01-07 21:56:25.385 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 21:56:25.387 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 124ms
+2026-01-07 21:56:25.390 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 127.3904 ms
+2026-01-07 21:56:25.393 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - 400 null application/problem+json; charset=utf-8 144.6199ms
+2026-01-07 21:58:45.844 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - application/json 105
+2026-01-07 21:58:45.857 +03:00 [INF] HTTP POST /api/auth/register started
+2026-01-07 21:58:45.869 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 21:58:45.877 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 21:58:45.898 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-07 21:58:45.903 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 7.6429ms
+2026-01-07 21:58:45.908 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 21:58:45.912 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 54ms
+2026-01-07 21:58:45.918 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 61.1420 ms
+2026-01-07 21:58:45.923 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - 400 null application/problem+json; charset=utf-8 79.6968ms
+2026-01-07 22:01:42.026 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - application/json 107
+2026-01-07 22:01:42.042 +03:00 [INF] HTTP POST /api/auth/register started
+2026-01-07 22:01:42.050 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 22:01:42.062 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 22:01:42.087 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-07 22:01:42.092 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 8.632ms
+2026-01-07 22:01:42.098 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 22:01:42.101 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 58ms
+2026-01-07 22:01:42.106 +03:00 [INF] HTTP POST /api/auth/register responded 400 in 63.5095 ms
+2026-01-07 22:01:42.109 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - 400 null application/problem+json; charset=utf-8 82.7993ms
+2026-01-07 22:02:14.219 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - application/json 105
+2026-01-07 22:02:14.233 +03:00 [INF] HTTP POST /api/auth/register started
+2026-01-07 22:02:14.239 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 22:02:14.247 +03:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Register(inventory_api.DTOs.Auth.RegisterRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 22:02:14.342 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM users AS u
+    WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0)
+2026-01-07 22:02:14.843 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = DateTime), @p7='?', @p8='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO users (id, created_at, email, name, password_hash, refresh_token, refresh_token_expiry, role, updated_at)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8)
+RETURNING is_deleted;
+2026-01-07 22:02:14.906 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Auth.LoginResponseDto'.
+2026-01-07 22:02:14.919 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Register (inventory-api) in 663.3572ms
+2026-01-07 22:02:14.924 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Register (inventory-api)'
+2026-01-07 22:02:14.928 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 694ms
+2026-01-07 22:02:14.931 +03:00 [INF] HTTP POST /api/auth/register responded 200 in 698.3250 ms
+2026-01-07 22:02:14.935 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/register - 200 null application/json; charset=utf-8 715.7804ms
+2026-01-07 22:50:55.328 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:50:55.341 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:50:55.452 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:50:55.459 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:50:55.461 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 119ms
+2026-01-07 22:50:55.463 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 122.1876 ms
+2026-01-07 22:50:55.466 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 138.9737ms
+2026-01-07 22:50:58.966 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:50:58.975 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:50:58.982 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:50:58.986 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:50:58.993 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 18ms
+2026-01-07 22:50:58.998 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 23.0181 ms
+2026-01-07 22:50:59.002 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 35.8106ms
+2026-01-07 22:53:08.506 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:53:08.527 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:53:08.544 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:53:08.549 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:53:08.555 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 27ms
+2026-01-07 22:53:08.562 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 35.3598 ms
+2026-01-07 22:53:08.570 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 63.238ms
+2026-01-07 22:53:56.750 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:53:56.752 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:53:56.753 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:53:56.767 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:53:56.779 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:53:56.789 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:53:56.794 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:53:56.802 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:53:56.806 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:53:56.810 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:53:56.819 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:53:56.824 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:53:56.829 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 61ms
+2026-01-07 22:53:56.833 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 53ms
+2026-01-07 22:53:56.837 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 48ms
+2026-01-07 22:53:56.841 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 73.1284 ms
+2026-01-07 22:53:56.845 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 66.3916 ms
+2026-01-07 22:53:56.848 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 59.0966 ms
+2026-01-07 22:53:56.854 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 104.333ms
+2026-01-07 22:53:56.859 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 107.0374ms
+2026-01-07 22:53:56.863 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 110.2744ms
+2026-01-07 22:57:02.965 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:57:02.979 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:57:02.994 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:57:03.005 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:57:03.019 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 39ms
+2026-01-07 22:57:03.033 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 54.6598 ms
+2026-01-07 22:57:03.048 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 82.9271ms
+2026-01-07 22:57:08.751 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:57:08.767 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:57:08.780 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-01-07 22:57:08.787 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-01-07 22:57:08.796 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 29ms
+2026-01-07 22:57:08.803 +03:00 [INF] HTTP POST /api/sync/push responded 403 in 36.3823 ms
+2026-01-07 22:57:08.812 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 403 0 null 61.0046ms
+2026-01-07 22:57:37.630 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - application/json 55
+2026-01-07 22:57:37.636 +03:00 [INF] HTTP POST /api/auth/login started
+2026-01-07 22:57:37.639 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 22:57:37.642 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Auth.LoginResponseDto]] Login(inventory_api.DTOs.Auth.LoginRequestDto) on controller inventory_api.Controllers.AuthController (inventory-api).
+2026-01-07 22:57:37.701 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id, u.created_at, u.email, u.is_deleted, u.name, u.password_hash, u.refresh_token, u.refresh_token_expiry, u.role, u.updated_at
+FROM users AS u
+WHERE NOT (u.is_deleted) AND lower(u.email) = @__ToLower_0
+LIMIT 1
+2026-01-07 22:57:37.908 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET refresh_token = @p0, refresh_token_expiry = @p1, updated_at = @p2
+WHERE id = @p3;
+2026-01-07 22:57:37.917 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Auth.LoginResponseDto'.
+2026-01-07 22:57:37.920 +03:00 [INF] Executed action inventory_api.Controllers.AuthController.Login (inventory-api) in 273.5128ms
+2026-01-07 22:57:37.923 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.AuthController.Login (inventory-api)'
+2026-01-07 22:57:37.925 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 288ms
+2026-01-07 22:57:37.928 +03:00 [INF] HTTP POST /api/auth/login responded 200 in 291.5265 ms
+2026-01-07 22:57:37.930 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/auth/login - 200 null application/json; charset=utf-8 300.4651ms
+2026-01-07 22:57:42.530 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 895
+2026-01-07 22:57:42.545 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 22:57:42.554 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 22:57:42.578 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 22:57:42.636 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-01-07 22:57:42.642 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 49.7184ms
+2026-01-07 22:57:42.645 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 22:57:42.647 +03:00 [INF] HTTP POST /api/sync/push responded 400 in 101ms
+2026-01-07 22:57:42.651 +03:00 [INF] HTTP POST /api/sync/push responded 400 in 105.6186 ms
+2026-01-07 22:57:42.654 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 400 null application/problem+json; charset=utf-8 124.0914ms
+2026-01-07 23:07:14.138 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 1286
+2026-01-07 23:07:14.144 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:07:14.150 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:07:14.152 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:07:14.277 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 2 created, 3 updated, 1 deleted
+2026-01-07 23:07:14.592 +03:00 [INF] Executed DbCommand (64ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:07:14.640 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:07:14.705 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:07:14.851 +03:00 [INF] Executed DbCommand (78ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+2026-01-07 23:07:15.051 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid), @p24='?' (DbType = Guid), @p25='?' (DbType = DateTime), @p26='?', @p27='?' (DbType = Int32), @p28='?', @p29='?', @p30='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p24, @p25, @p26, @p27, @p28, @p29, @p30);
+2026-01-07 23:07:15.062 +03:00 [ERR] Push failed for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.Consume(RelationalDataReader reader, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at inventory_api.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\Dell\desktop\inventory-api\inventory-api\data\app-db-context.cs:line 64
+   at inventory_api.Services.Implementations.SyncService.LogSyncAsync(Guid userId, String syncType, Int32 recordCount, String status, String errorMessage) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 176
+   at inventory_api.Services.Implementations.SyncService.PushChangesAsync(Guid userId, SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 157
+   at inventory_api.Controllers.SyncController.Push(SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\controllers\sync-controller.cs:line 84
+2026-01-07 23:07:15.487 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:07:15.493 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 1331.5381ms
+2026-01-07 23:07:15.502 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:07:15.504 +03:00 [INF] HTTP POST /api/sync/push responded 500 in 1360ms
+2026-01-07 23:07:15.510 +03:00 [ERR] HTTP POST /api/sync/push responded 500 in 1365.5575 ms
+2026-01-07 23:07:15.516 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 500 null application/json; charset=utf-8 1377.927ms
+2026-01-07 23:13:55.340 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 1286
+2026-01-07 23:13:55.352 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:13:55.357 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:13:55.359 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:13:55.369 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 2 created, 3 updated, 1 deleted
+2026-01-07 23:13:55.421 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:13:55.429 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:13:55.438 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:13:55.456 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+2026-01-07 23:13:55.474 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid), @p24='?' (DbType = Guid), @p25='?' (DbType = DateTime), @p26='?', @p27='?' (DbType = Int32), @p28='?', @p29='?', @p30='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p24, @p25, @p26, @p27, @p28, @p29, @p30);
+2026-01-07 23:13:55.493 +03:00 [ERR] Push failed for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.Consume(RelationalDataReader reader, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at inventory_api.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\Dell\desktop\inventory-api\inventory-api\data\app-db-context.cs:line 64
+   at inventory_api.Services.Implementations.SyncService.LogSyncAsync(Guid userId, String syncType, Int32 recordCount, String status, String errorMessage) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 176
+   at inventory_api.Services.Implementations.SyncService.PushChangesAsync(Guid userId, SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 157
+   at inventory_api.Controllers.SyncController.Push(SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\controllers\sync-controller.cs:line 84
+2026-01-07 23:13:55.537 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:13:55.542 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 176.8321ms
+2026-01-07 23:13:55.544 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:13:55.546 +03:00 [INF] HTTP POST /api/sync/push responded 500 in 193ms
+2026-01-07 23:13:55.554 +03:00 [ERR] HTTP POST /api/sync/push responded 500 in 201.4629 ms
+2026-01-07 23:13:55.557 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 500 null application/json; charset=utf-8 216.9904ms
+2026-01-07 23:13:57.444 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 1286
+2026-01-07 23:13:57.451 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:13:57.454 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:13:57.456 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:13:57.464 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 2 created, 3 updated, 1 deleted
+2026-01-07 23:13:57.474 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:13:57.483 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:13:57.497 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:13:57.509 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+2026-01-07 23:13:57.534 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p11='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime), @p10='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?', @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?', @p20='?' (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime), @p23='?' (DbType = Guid), @p24='?' (DbType = Guid), @p25='?' (DbType = DateTime), @p26='?', @p27='?' (DbType = Int32), @p28='?', @p29='?', @p30='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE products SET barcode = @p0, category = @p1, created_at = @p2, description = @p3, image_url = @p4, is_deleted = @p5, name = @p6, price = @p7, stock = @p8, updated_at = @p9, user_id = @p10
+WHERE id = @p11;
+INSERT INTO products (id, barcode, category, created_at, description, image_url, is_deleted, name, price, stock, updated_at, user_id)
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p24, @p25, @p26, @p27, @p28, @p29, @p30);
+2026-01-07 23:13:57.554 +03:00 [ERR] Push failed for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Update.Internal.NpgsqlModificationCommandBatch.Consume(RelationalDataReader reader, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at inventory_api.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\Dell\desktop\inventory-api\inventory-api\data\app-db-context.cs:line 64
+   at inventory_api.Services.Implementations.SyncService.LogSyncAsync(Guid userId, String syncType, Int32 recordCount, String status, String errorMessage) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 176
+   at inventory_api.Services.Implementations.SyncService.PushChangesAsync(Guid userId, SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\services\implementations\sync-service.cs:line 157
+   at inventory_api.Controllers.SyncController.Push(SyncPushRequestDto request) in C:\Users\Dell\desktop\inventory-api\inventory-api\controllers\sync-controller.cs:line 84
+2026-01-07 23:13:57.604 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:13:57.609 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 145.9802ms
+2026-01-07 23:13:57.611 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:13:57.615 +03:00 [INF] HTTP POST /api/sync/push responded 500 in 164ms
+2026-01-07 23:13:57.620 +03:00 [ERR] HTTP POST /api/sync/push responded 500 in 169.6539 ms
+2026-01-07 23:13:57.625 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 500 null application/json; charset=utf-8 181.4964ms
+2026-01-07 23:15:17.615 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 352
+2026-01-07 23:15:17.620 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:15:17.623 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 352
+2026-01-07 23:15:17.624 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.624 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 352
+2026-01-07 23:15:17.632 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:15:17.638 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:17.642 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:15:17.648 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.656 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 0 created, 1 updated, 1 deleted
+2026-01-07 23:15:17.658 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.663 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:17.669 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:15:17.672 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:17.687 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 0 created, 1 updated, 1 deleted
+2026-01-07 23:15:17.699 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:15:17.710 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 0 created, 1 updated, 1 deleted
+2026-01-07 23:15:17.724 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:17.734 +03:00 [INF] Push completed successfully for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+2026-01-07 23:15:17.737 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:15:17.748 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 93.0579ms
+2026-01-07 23:15:17.751 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.758 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 137ms
+2026-01-07 23:15:17.764 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 144.2181 ms
+2026-01-07 23:15:17.772 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 200 null application/json; charset=utf-8 157.3869ms
+2026-01-07 23:15:17.775 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:15:17.787 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:15:17.794 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:15:17.801 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid), @__userId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.id = @__id_0 AND p.user_id = @__userId_1
+LIMIT 1
+2026-01-07 23:15:17.810 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - null null
+2026-01-07 23:15:17.817 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:17.821 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:17.827 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:17.839 +03:00 [INF] Push completed successfully for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+2026-01-07 23:15:17.844 +03:00 [INF] Push completed successfully for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+2026-01-07 23:15:17.851 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:17.853 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:15:17.856 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:15:17.862 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 176.131ms
+2026-01-07 23:15:17.865 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:17.870 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 161.5848ms
+2026-01-07 23:15:17.875 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.890 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:17.897 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 264ms
+2026-01-07 23:15:17.898 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 0
+2026-01-07 23:15:17.903 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 260ms
+2026-01-07 23:15:17.907 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 274.9376 ms
+2026-01-07 23:15:17.916 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 273.2698 ms
+2026-01-07 23:15:17.922 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 200 null application/json; charset=utf-8 299.0039ms
+2026-01-07 23:15:17.930 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 200 null application/json; charset=utf-8 305.8814ms
+2026-01-07 23:15:17.937 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:17.942 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - null null
+2026-01-07 23:15:17.950 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - null null
+2026-01-07 23:15:17.968 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:17.971 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:17.976 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:17.982 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:17.995 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:17.999 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:18.001 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:18.007 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:18.009 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:18.018 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 0
+2026-01-07 23:15:18.026 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 140.145ms
+2026-01-07 23:15:18.027 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 0
+2026-01-07 23:15:18.031 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:18.032 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:18.040 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:18.048 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:18.052 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 224ms
+2026-01-07 23:15:18.061 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:18.069 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:18.075 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 247.8736 ms
+2026-01-07 23:15:18.088 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:18.091 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:18.096 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - 200 null application/json; charset=utf-8 286.2908ms
+2026-01-07 23:15:18.100 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:18.105 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 90.1359ms
+2026-01-07 23:15:18.121 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 94.8104ms
+2026-01-07 23:15:18.123 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:18.128 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:18.130 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 161ms
+2026-01-07 23:15:18.136 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 159ms
+2026-01-07 23:15:18.139 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 171.1985 ms
+2026-01-07 23:15:18.144 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 168.0037 ms
+2026-01-07 23:15:18.147 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - 200 null application/json; charset=utf-8 205.3277ms
+2026-01-07 23:15:18.154 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=0 - 200 null application/json; charset=utf-8 203.3289ms
+2026-01-07 23:15:25.821 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816918059 - null null
+2026-01-07 23:15:25.827 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:25.833 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:25.837 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:25.843 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816918059
+2026-01-07 23:15:25.847 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:25.857 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:25.862 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:25.868 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:25.870 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 27.8709ms
+2026-01-07 23:15:25.873 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:25.875 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 47ms
+2026-01-07 23:15:25.877 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 50.0162 ms
+2026-01-07 23:15:25.883 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816918059 - 200 null application/json; charset=utf-8 62.2447ms
+2026-01-07 23:15:26.589 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816925855 - null null
+2026-01-07 23:15:26.612 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:26.629 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:26.634 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:26.648 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816925855
+2026-01-07 23:15:26.658 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:26.672 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:26.681 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:26.687 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:26.690 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 43.1827ms
+2026-01-07 23:15:26.695 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:26.697 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 85ms
+2026-01-07 23:15:26.704 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 92.1938 ms
+2026-01-07 23:15:26.708 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816925855 - 200 null application/json; charset=utf-8 119.0388ms
+2026-01-07 23:15:27.525 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816926665 - null null
+2026-01-07 23:15:27.535 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:27.544 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:27.549 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:27.558 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816926665
+2026-01-07 23:15:27.562 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:27.571 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:27.579 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:27.582 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:27.586 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 29.2019ms
+2026-01-07 23:15:27.589 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:27.592 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 56ms
+2026-01-07 23:15:27.594 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 58.9907 ms
+2026-01-07 23:15:27.598 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816926665 - 200 null application/json; charset=utf-8 73.0991ms
+2026-01-07 23:15:49.450 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 326
+2026-01-07 23:15:49.468 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:15:49.478 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:49.488 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:49.502 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 0 created, 1 updated, 0 deleted
+2026-01-07 23:15:49.510 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:15:49.524 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:49.535 +03:00 [INF] Push completed successfully for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+2026-01-07 23:15:49.539 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:15:49.545 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 44.8891ms
+2026-01-07 23:15:49.548 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:15:49.551 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 83ms
+2026-01-07 23:15:49.554 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 86.4253 ms
+2026-01-07 23:15:49.557 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 200 null application/json; charset=utf-8 106.9735ms
+2026-01-07 23:15:49.579 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816927569 - null null
+2026-01-07 23:15:49.588 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:49.592 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:49.597 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:49.602 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816927569
+2026-01-07 23:15:49.609 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:49.623 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:49.632 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:49.639 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:49.642 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 40.4033ms
+2026-01-07 23:15:49.652 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:49.654 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 66ms
+2026-01-07 23:15:49.660 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 71.8784 ms
+2026-01-07 23:15:49.663 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816927569 - 200 null application/json; charset=utf-8 84.0555ms
+2026-01-07 23:15:55.431 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816949621 - null null
+2026-01-07 23:15:55.450 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:55.462 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:55.466 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:55.476 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816949621
+2026-01-07 23:15:55.484 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:55.497 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:55.502 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:55.506 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:55.513 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 38.564ms
+2026-01-07 23:15:55.515 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:55.517 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 66ms
+2026-01-07 23:15:55.521 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 71.1087 ms
+2026-01-07 23:15:55.525 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816949621 - 200 null application/json; charset=utf-8 93.6284ms
+2026-01-07 23:15:56.346 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816955495 - null null
+2026-01-07 23:15:56.358 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:15:56.362 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:56.364 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:15:56.369 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816955495
+2026-01-07 23:15:56.373 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:15:56.384 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:15:56.399 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:15:56.403 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:15:56.407 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 38.1999ms
+2026-01-07 23:15:56.412 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:15:56.414 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 56ms
+2026-01-07 23:15:56.417 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 58.6769 ms
+2026-01-07 23:15:56.421 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816955495 - 200 null application/json; charset=utf-8 75.2644ms
+2026-01-07 23:16:39.639 +03:00 [INF] Request starting HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - application/json 326
+2026-01-07 23:16:39.646 +03:00 [INF] HTTP POST /api/sync/push started
+2026-01-07 23:16:39.651 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:16:39.656 +03:00 [INF] Route matched with {action = "Push", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Push(inventory_api.DTOs.Sync.SyncPushRequestDto) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:16:39.666 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pushing changes: 0 created, 1 updated, 0 deleted
+2026-01-07 23:16:39.677 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE NOT (p.is_deleted) AND p.id = @__p_0
+LIMIT 1
+2026-01-07 23:16:39.686 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:16:39.697 +03:00 [INF] Push completed successfully for user "eb194de7-3ad1-4db8-9678-208896b697e4"
+2026-01-07 23:16:39.700 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-07 23:16:39.706 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Push (inventory-api) in 40.8474ms
+2026-01-07 23:16:39.711 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Push (inventory-api)'
+2026-01-07 23:16:39.713 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 67ms
+2026-01-07 23:16:39.716 +03:00 [INF] HTTP POST /api/sync/push responded 200 in 70.2869 ms
+2026-01-07 23:16:39.721 +03:00 [INF] Request finished HTTP/1.1 POST http://192.168.1.113:5215/api/sync/push - 200 null application/json; charset=utf-8 82.774ms
+2026-01-07 23:16:39.809 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816956383 - null null
+2026-01-07 23:16:39.816 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:16:39.820 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:16:39.822 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:16:39.828 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816956383
+2026-01-07 23:16:39.832 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:16:39.840 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:16:39.849 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:16:39.852 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:16:39.856 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 28.6326ms
+2026-01-07 23:16:39.859 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:16:39.862 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 46ms
+2026-01-07 23:16:39.866 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 49.8986 ms
+2026-01-07 23:16:39.869 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816956383 - 200 null application/json; charset=utf-8 59.6827ms
+2026-01-07 23:16:41.016 +03:00 [INF] Request starting HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816999838 - null null
+2026-01-07 23:16:41.038 +03:00 [INF] HTTP GET /api/sync/pull started
+2026-01-07 23:16:41.049 +03:00 [INF] Executing endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:16:41.058 +03:00 [INF] Route matched with {action = "Pull", controller = "Sync"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[inventory_api.DTOs.Sync.SyncPullResponseDto]] Pull(Int64) on controller inventory_api.Controllers.SyncController (inventory-api).
+2026-01-07 23:16:41.069 +03:00 [INF] User "eb194de7-3ad1-4db8-9678-208896b697e4" pulling changes since 1767816999838
+2026-01-07 23:16:41.074 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Guid), @__lastPulledAt_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT p.id, p.barcode, p.category, p.created_at, p.description, p.image_url, p.is_deleted, p.name, p.price, p.stock, p.updated_at, p.user_id
+FROM products AS p
+WHERE p.user_id = @__userId_0 AND p.updated_at > @__lastPulledAt_1
+ORDER BY p.updated_at
+2026-01-07 23:16:41.090 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Int32), @p4='?', @p5='?', @p6='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO sync_logs (id, created_at, error_message, record_count, status, sync_type, user_id)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-01-07 23:16:41.105 +03:00 [INF] Pull completed for user "eb194de7-3ad1-4db8-9678-208896b697e4": 0 created, 0 updated, 0 deleted
+2026-01-07 23:16:41.109 +03:00 [INF] Executing OkObjectResult, writing value of type 'inventory_api.DTOs.Sync.SyncPullResponseDto'.
+2026-01-07 23:16:41.111 +03:00 [INF] Executed action inventory_api.Controllers.SyncController.Pull (inventory-api) in 43.8807ms
+2026-01-07 23:16:41.116 +03:00 [INF] Executed endpoint 'inventory_api.Controllers.SyncController.Pull (inventory-api)'
+2026-01-07 23:16:41.123 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 84ms
+2026-01-07 23:16:41.126 +03:00 [INF] HTTP GET /api/sync/pull responded 200 in 87.4945 ms
+2026-01-07 23:16:41.130 +03:00 [INF] Request finished HTTP/1.1 GET http://192.168.1.113:5215/api/sync/pull?lastPulledAt=1767816999838 - 200 null application/json; charset=utf-8 113.1826ms

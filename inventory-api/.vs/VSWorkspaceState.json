@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\inventory-api",
+    "\\inventory-api\\dtos",
+    "\\inventory-api\\dtos\\product",
+    "\\inventory-api\\extensions",
+    "\\inventory-api\\helpers",
+    "\\inventory-api\\obj",
+    "\\inventory-api\\Resources",
+    "\\inventory-api\\services",
+    "\\inventory-api\\services\\interfaces"
+  ],
+  "PreviewInSolutionExplorer": false
+}

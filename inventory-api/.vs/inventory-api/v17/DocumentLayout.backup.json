@@ -1,0 +1,1258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\inventory-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.en.resx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\Resources\\Messages.en.resx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.resx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\Resources\\Messages.resx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\product-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\product-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\products-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\controllers\\products-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\create-product-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\validators\\create-product-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\stock-movement-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\validators\\stock-movement-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-create-dto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\product\\stock-movement-create-dto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\product\\stock-movement-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\update-product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\product\\update-product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\create-product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\product\\create-product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\register-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\auth\\register-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\auth\\login-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\app-db-context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\auth-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\controllers\\auth-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\stock-movements-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\controllers\\stock-movements-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\sync-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\controllers\\sync-controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\product-sync-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\sync\\product-sync-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-push-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\sync\\sync-push-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-response-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\sync\\sync-pull-response-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\sync\\sync-pull-request-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-changes-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\sync\\sync-changes-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\product\\product-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\user-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\auth\\user-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-response-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\dtos\\auth\\login-response-dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\service-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\extensions\\service-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\update-product-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\validators\\update-product-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\register-request-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\validators\\register-request-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\login-request-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\validators\\login-request-validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ISyncService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\ISyncService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ITokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\ITokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IStockMovementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\IStockMovementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ILocalizationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\ILocalizationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\token-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\token-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\sync-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\sync-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\stock-movement-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\stock-movement-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\localization-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\localization-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\auth-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\services\\implementations\\auth-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IProductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\interfaces\\IProductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IGenericRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\interfaces\\IGenericRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\user-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\implementations\\user-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\stock-movement-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\implementations\\stock-movement-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\product-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\implementations\\product-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\generic-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\repositories\\implementations\\generic-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user-role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\models\\user-role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\sync-log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\models\\sync-log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\stock-movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\models\\stock-movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\request-logging-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\middleware\\request-logging-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\jwt-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\middleware\\jwt-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\exception-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\middleware\\exception-middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\auto-mapper-profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\helpers\\auto-mapper-profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\date-time-helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\helpers\\date-time-helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\app-settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\helpers\\app-settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\string-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\extensions\\string-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\application-builder-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\extensions\\application-builder-extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context-factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\app-db-context-factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\user-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\configurations\\user-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\sync-log-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\configurations\\sync-log-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\stock-movement-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\configurations\\stock-movement-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\product-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\data\\configurations\\product-configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\logs\\inventory-api-20251229.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\logs\\inventory-api-20251229.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\20251228181429_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\Migrations\\20251228181429_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:inventory-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Messages.resx",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.resx",
+              "RelativeDocumentMoniker": "inventory-api\\Resources\\Messages.resx",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.resx",
+              "RelativeToolTip": "inventory-api\\Resources\\Messages.resx",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-08T14:44:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Messages.en.resx",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.en.resx",
+              "RelativeDocumentMoniker": "inventory-api\\Resources\\Messages.en.resx",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Resources\\Messages.en.resx",
+              "RelativeToolTip": "inventory-api\\Resources\\Messages.en.resx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-08T14:45:46.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\product.cs",
+              "RelativeDocumentMoniker": "inventory-api\\models\\product.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\product.cs",
+              "RelativeToolTip": "inventory-api\\models\\product.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:29:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "products-controller.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\products-controller.cs",
+              "RelativeDocumentMoniker": "inventory-api\\controllers\\products-controller.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\products-controller.cs",
+              "RelativeToolTip": "inventory-api\\controllers\\products-controller.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAALAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:40:36.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "create-product-validator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\create-product-validator.cs",
+              "RelativeDocumentMoniker": "inventory-api\\validators\\create-product-validator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\create-product-validator.cs",
+              "RelativeToolTip": "inventory-api\\validators\\create-product-validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:36:42.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\product-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\product-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\product-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\product-service.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAIoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:24:32.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IProductService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:24:22.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "stock-movement-validator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\stock-movement-validator.cs",
+              "RelativeDocumentMoniker": "inventory-api\\validators\\stock-movement-validator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\stock-movement-validator.cs",
+              "RelativeToolTip": "inventory-api\\validators\\stock-movement-validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T17:05:34.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stock-movement-create-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-create-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\product\\stock-movement-create-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-create-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\product\\stock-movement-create-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T17:04:48.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "stock-movement-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\product\\stock-movement-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\stock-movement-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\product\\stock-movement-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:34:52.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "create-product-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\create-product-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\product\\create-product-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\create-product-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\product\\create-product-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:33:04.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app-db-context.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\app-db-context.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context.cs",
+              "RelativeToolTip": "inventory-api\\data\\app-db-context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:38:23.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "auth-controller.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\auth-controller.cs",
+              "RelativeDocumentMoniker": "inventory-api\\controllers\\auth-controller.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\auth-controller.cs",
+              "RelativeToolTip": "inventory-api\\controllers\\auth-controller.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:40:12.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "login-request-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-request-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\auth\\login-request-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-request-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\auth\\login-request-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:31:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register-request-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\register-request-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\auth\\register-request-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\register-request-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\auth\\register-request-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:31:55.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "update-product-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\update-product-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\product\\update-product-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\update-product-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\product\\update-product-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:34:18.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "stock-movements-controller.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\stock-movements-controller.cs",
+              "RelativeDocumentMoniker": "inventory-api\\controllers\\stock-movements-controller.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\stock-movements-controller.cs",
+              "RelativeToolTip": "inventory-api\\controllers\\stock-movements-controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:41:21.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "sync-controller.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\sync-controller.cs",
+              "RelativeDocumentMoniker": "inventory-api\\controllers\\sync-controller.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\controllers\\sync-controller.cs",
+              "RelativeToolTip": "inventory-api\\controllers\\sync-controller.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:41:08.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "product-sync-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\product-sync-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\sync\\product-sync-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\product-sync-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\sync\\product-sync-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:36:53.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "sync-push-request-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-push-request-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\sync\\sync-push-request-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-push-request-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\sync\\sync-push-request-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:36:31.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "sync-pull-response-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-response-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\sync\\sync-pull-response-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-response-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\sync\\sync-pull-response-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:36:22.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "sync-pull-request-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-request-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\sync\\sync-pull-request-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-pull-request-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\sync\\sync-pull-request-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:36:06.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "sync-changes-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-changes-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\sync\\sync-changes-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\sync\\sync-changes-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\sync\\sync-changes-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:36:42.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "product-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\product-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\product\\product-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\product\\product-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\product\\product-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:32:50.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "user-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\user-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\auth\\user-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\user-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\auth\\user-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:32:23.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "login-response-dto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-response-dto.cs",
+              "RelativeDocumentMoniker": "inventory-api\\dtos\\auth\\login-response-dto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\dtos\\auth\\login-response-dto.cs",
+              "RelativeToolTip": "inventory-api\\dtos\\auth\\login-response-dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:32:09.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "service-extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\service-extensions.cs",
+              "RelativeDocumentMoniker": "inventory-api\\extensions\\service-extensions.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\service-extensions.cs",
+              "RelativeToolTip": "inventory-api\\extensions\\service-extensions.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:03:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Program.cs",
+              "RelativeDocumentMoniker": "inventory-api\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Program.cs",
+              "RelativeToolTip": "inventory-api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:20:03.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "update-product-validator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\update-product-validator.cs",
+              "RelativeDocumentMoniker": "inventory-api\\validators\\update-product-validator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\update-product-validator.cs",
+              "RelativeToolTip": "inventory-api\\validators\\update-product-validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:36:54.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "register-request-validator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\register-request-validator.cs",
+              "RelativeDocumentMoniker": "inventory-api\\validators\\register-request-validator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\register-request-validator.cs",
+              "RelativeToolTip": "inventory-api\\validators\\register-request-validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:36:33.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "login-request-validator.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\login-request-validator.cs",
+              "RelativeDocumentMoniker": "inventory-api\\validators\\login-request-validator.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\validators\\login-request-validator.cs",
+              "RelativeToolTip": "inventory-api\\validators\\login-request-validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:36:21.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ISyncService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ISyncService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\ISyncService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ISyncService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\ISyncService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:25:24.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ITokenService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:21:03.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IStockMovementService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IStockMovementService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\IStockMovementService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IStockMovementService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\IStockMovementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:25:23.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ILocalizationService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ILocalizationService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\ILocalizationService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\ILocalizationService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\ILocalizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:46:34.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\interfaces\\IAuthService.cs",
+              "RelativeToolTip": "inventory-api\\services\\interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:23:57.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "token-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\token-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\token-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\token-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\token-service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:21:13.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "sync-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\sync-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\sync-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\sync-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\sync-service.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAAMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:26:48.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "stock-movement-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\stock-movement-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\stock-movement-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\stock-movement-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\stock-movement-service.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:28:02.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "localization-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\localization-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\localization-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\localization-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\localization-service.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:00:11.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "auth-service.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\auth-service.cs",
+              "RelativeDocumentMoniker": "inventory-api\\services\\implementations\\auth-service.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\services\\implementations\\auth-service.cs",
+              "RelativeToolTip": "inventory-api\\services\\implementations\\auth-service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:24:08.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IStockMovementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\interfaces\\IStockMovementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:18:37.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:18:22.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:17:56.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:17:23.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "user-repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\user-repository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\implementations\\user-repository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\user-repository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\implementations\\user-repository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:18:15.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "stock-movement-repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\stock-movement-repository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\implementations\\stock-movement-repository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\stock-movement-repository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\implementations\\stock-movement-repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:18:44.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "product-repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\product-repository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\implementations\\product-repository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\product-repository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\implementations\\product-repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:18:05.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "generic-repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\generic-repository.cs",
+              "RelativeDocumentMoniker": "inventory-api\\repositories\\implementations\\generic-repository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\repositories\\implementations\\generic-repository.cs",
+              "RelativeToolTip": "inventory-api\\repositories\\implementations\\generic-repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:17:44.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user.cs",
+              "RelativeDocumentMoniker": "inventory-api\\models\\user.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user.cs",
+              "RelativeToolTip": "inventory-api\\models\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:26:56.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "user-role.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user-role.cs",
+              "RelativeDocumentMoniker": "inventory-api\\models\\user-role.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\user-role.cs",
+              "RelativeToolTip": "inventory-api\\models\\user-role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:16:50.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "sync-log.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\sync-log.cs",
+              "RelativeDocumentMoniker": "inventory-api\\models\\sync-log.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\sync-log.cs",
+              "RelativeToolTip": "inventory-api\\models\\sync-log.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:30:30.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "stock-movement.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\stock-movement.cs",
+              "RelativeDocumentMoniker": "inventory-api\\models\\stock-movement.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\models\\stock-movement.cs",
+              "RelativeToolTip": "inventory-api\\models\\stock-movement.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:30:07.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "inventory-api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "inventory-api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:45:53.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "jwt-middleware.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\jwt-middleware.cs",
+              "RelativeDocumentMoniker": "inventory-api\\middleware\\jwt-middleware.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\jwt-middleware.cs",
+              "RelativeToolTip": "inventory-api\\middleware\\jwt-middleware.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:35:07.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "exception-middleware.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\exception-middleware.cs",
+              "RelativeDocumentMoniker": "inventory-api\\middleware\\exception-middleware.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\exception-middleware.cs",
+              "RelativeToolTip": "inventory-api\\middleware\\exception-middleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:03:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "auto-mapper-profile.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\auto-mapper-profile.cs",
+              "RelativeDocumentMoniker": "inventory-api\\helpers\\auto-mapper-profile.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\auto-mapper-profile.cs",
+              "RelativeToolTip": "inventory-api\\helpers\\auto-mapper-profile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:37:54.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "date-time-helper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\date-time-helper.cs",
+              "RelativeDocumentMoniker": "inventory-api\\helpers\\date-time-helper.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\date-time-helper.cs",
+              "RelativeToolTip": "inventory-api\\helpers\\date-time-helper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:38:12.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "app-settings.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\app-settings.cs",
+              "RelativeDocumentMoniker": "inventory-api\\helpers\\app-settings.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\helpers\\app-settings.cs",
+              "RelativeToolTip": "inventory-api\\helpers\\app-settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:34:20.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "request-logging-middleware.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\request-logging-middleware.cs",
+              "RelativeDocumentMoniker": "inventory-api\\middleware\\request-logging-middleware.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\middleware\\request-logging-middleware.cs",
+              "RelativeToolTip": "inventory-api\\middleware\\request-logging-middleware.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:37:28.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "string-extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\string-extensions.cs",
+              "RelativeDocumentMoniker": "inventory-api\\extensions\\string-extensions.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\string-extensions.cs",
+              "RelativeToolTip": "inventory-api\\extensions\\string-extensions.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:40:02.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "application-builder-extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\application-builder-extensions.cs",
+              "RelativeDocumentMoniker": "inventory-api\\extensions\\application-builder-extensions.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\extensions\\application-builder-extensions.cs",
+              "RelativeToolTip": "inventory-api\\extensions\\application-builder-extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:03:25.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "app-db-context-factory.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context-factory.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\app-db-context-factory.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\app-db-context-factory.cs",
+              "RelativeToolTip": "inventory-api\\data\\app-db-context-factory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:13:42.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "user-configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\user-configuration.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\configurations\\user-configuration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\user-configuration.cs",
+              "RelativeToolTip": "inventory-api\\data\\configurations\\user-configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:38:59.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "sync-log-configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\sync-log-configuration.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\configurations\\sync-log-configuration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\sync-log-configuration.cs",
+              "RelativeToolTip": "inventory-api\\data\\configurations\\sync-log-configuration.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:41:48.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "stock-movement-configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\stock-movement-configuration.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\configurations\\stock-movement-configuration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\stock-movement-configuration.cs",
+              "RelativeToolTip": "inventory-api\\data\\configurations\\stock-movement-configuration.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:39:53.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "product-configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\product-configuration.cs",
+              "RelativeDocumentMoniker": "inventory-api\\data\\configurations\\product-configuration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\data\\configurations\\product-configuration.cs",
+              "RelativeToolTip": "inventory-api\\data\\configurations\\product-configuration.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:39:34.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "inventory-api-20251229.txt",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\logs\\inventory-api-20251229.txt",
+              "RelativeDocumentMoniker": "inventory-api\\logs\\inventory-api-20251229.txt",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\logs\\inventory-api-20251229.txt",
+              "RelativeToolTip": "inventory-api\\logs\\inventory-api-20251229.txt",
+              "ViewState": "AgIAAEIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-30T08:05:32.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20251228181429_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\20251228181429_InitialCreate.cs",
+              "RelativeDocumentMoniker": "inventory-api\\Migrations\\20251228181429_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\Migrations\\20251228181429_InitialCreate.cs",
+              "RelativeToolTip": "inventory-api\\Migrations\\20251228181429_InitialCreate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T18:14:44.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\appsettings.json",
+              "RelativeDocumentMoniker": "inventory-api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\inventory-api\\inventory-api\\appsettings.json",
+              "RelativeToolTip": "inventory-api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-28T17:40:58.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
