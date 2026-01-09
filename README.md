@@ -22,7 +22,7 @@ The application leverages cutting-edge offline-first architecture using Watermel
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="./assets/screenshots/welcome.jpeg" width="200" alt="Welcome Light">
+  <img src="./inventory-app/assets/screenshots/welcome.jpeg" width="200" alt="Welcome Light">
   <img src="./assets/screenshots/welcome-darkmode.jpeg" width="200" alt="Welcome Dark">
   <img src="./assets/screenshots/home.jpeg" width="200" alt="Home Light">
   <img src="./assets/screenshots/home-darkmode.jpeg" width="200" alt="Home Dark">
@@ -192,18 +192,6 @@ EXPO_PUBLIC_FIREBASE_APP_ID=
   }
 }
 ```
-
-## 🔮 Future Enhancements
-
-- [ ] Export reports to PDF/Excel
-- [ ] Advanced analytics and charts
-- [ ] Product categories management
-- [ ] Multi-warehouse support
-- [ ] Batch barcode printing
-- [ ] Push notifications
-- [ ] Image upload for products
-- [ ] Invoice generation
-- [ ] Supplier management
 
 ## 🤝 Contributing
 
