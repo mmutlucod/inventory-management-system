@@ -21,34 +21,35 @@ The application leverages cutting-edge offline-first architecture using Watermel
 
 ## 📱 Screenshots
 
+### 🌞 Light Mode
 <p align="center">
-  <img src="./inventory-app/assets/screenshots/welcome.jpeg" width="200" alt="Welcome Light">
-  <img src="./inventory-app/assets/screenshots/welcome-darkmode.jpeg" width="200" alt="Welcome Dark">
-  <img src="./inventory-app/assets/screenshots/home.jpeg" width="200" alt="Home Light">
-  <img src="./inventory-app/assets/screenshots/home-darkmode.jpeg" width="200" alt="Home Dark">
+  <img src="./inventory-app/assets/screenshots/welcome.jpeg" width="200" alt="Welcome">
+  <img src="./inventory-app/assets/screenshots/home.jpeg" width="200" alt="Home">
+  <img src="./inventory-app/assets/screenshots/products.jpeg" width="200" alt="Products">
+  <img src="./inventory-app/assets/screenshots/detail.jpeg" width="200" alt="Detail">
 </p>
 
 <p align="center">
-  <img src="./inventory-app/assets/screenshots/products.jpeg" width="200" alt="Products Light">
-  <img src="./inventory-app/assets/screenshots/products-darkmode.jpeg" width="200" alt="Products Dark">
-  <img src="./inventory-app/assets/screenshots/detail.jpeg" width="200" alt="Detail Light">
-  <img src="./inventory-app/assets/screenshots/detail-darkmode.jpeg" width="200" alt="Detail Dark">
+  <img src="./inventory-app/assets/screenshots/barcode.jpeg" width="200" alt="Barcode">
+  <img src="./inventory-app/assets/screenshots/barcode-number.jpeg" width="200" alt="Barcode Number">
+  <img src="./inventory-app/assets/screenshots/sync.jpeg" width="200" alt="Sync">
+  <img src="./inventory-app/assets/screenshots/settings.jpeg" width="200" alt="Settings">
+</p>
+
+### 🌙 Dark Mode
+<p align="center">
+  <img src="./inventory-app/assets/screenshots/welcome-darkmode.jpeg" width="200" alt="Welcome">
+  <img src="./inventory-app/assets/screenshots/home-darkmode.jpeg" width="200" alt="Home">
+  <img src="./inventory-app/assets/screenshots/products-darkmode.jpeg" width="200" alt="Products">
+  <img src="./inventory-app/assets/screenshots/detail-darkmode.jpeg" width="200" alt="Detail">
 </p>
 
 <p align="center">
-  <img src="./inventory-app/assets/screenshots/barcode.jpeg" width="200" alt="Barcode Light">
-  <img src="./inventory-app/assets/screenshots/barcode-darkmode.jpeg" width="200" alt="Barcode Dark">
-  <img src="./inventory-app/assets/screenshots/barcode-number.jpeg" width="200" alt="Barcode Number Light">
-  <img src="./inventory-app/assets/screenshots/barcode-number-darkmode.jpeg" width="200" alt="Barcode Number Dark">
+  <img src="./inventory-app/assets/screenshots/barcode-darkmode.jpeg" width="200" alt="Barcode">
+  <img src="./inventory-app/assets/screenshots/barcode-number-darkmode.jpeg" width="200" alt="Barcode Number">
+  <img src="./inventory-app/assets/screenshots/sync-darkmode.jpeg" width="200" alt="Sync">
+  <img src="./inventory-app/assets/screenshots/setting-darkmode.jpeg" width="200" alt="Settings">
 </p>
-
-<p align="center">
-  <img src="./inventory-app/assets/screenshots/sync.jpeg" width="200" alt="Sync Light">
-  <img src="./inventory-app/assets/screenshots/sync-darkmode.jpeg" width="200" alt="Sync Dark">
-  <img src="./inventory-app/assets/screenshots/settings.jpeg" width="200" alt="Settings Light">
-  <img src="./inventory-app/assets/screenshots/settings-darkmode.jpeg" width="200" alt="Settings Dark">
-</p>
-
 ## 🚀 Getting Started
 
 ### Prerequisites
