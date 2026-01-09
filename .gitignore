@@ -1,0 +1,23 @@
+ 
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+inventory-app/.env
+
+# React Native / Expo
+inventory-app/node_modules/
+inventory-app/.expo/
+inventory-app/dist/
+inventory-app/.expo-shared/
+
+# .NET
+inventory-api/bin/
+inventory-api/obj/
+inventory-api/*.user
+inventory-api/.vs/
+
+# Genel
+.DS_Store
+*.log
