@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "inventory-app",
+    "slug": "inventory-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Barkod taramak için kamera erişimi gerekli",
+        "NSPhotoLibraryUsageDescription": "Ürün fotoğrafları eklemek için galeri erişimi gerekli"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mmutlucod.inventoryapp",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Barkod taramak için kamera erişimi gerekli"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ürün fotoğrafları için galeri erişimi gerekli",
+          "cameraPermission": "Ürün fotoğrafları için kamera erişimi gerekli"
+        }
+      ]
+    ]
+  }
+}
